@@ -1,0 +1,25 @@
+{
+  "id": "beauty-platform",
+  "title": "Salon, spa & beauty operations",
+  "buyer": "Salon and beauty business owners",
+  "sourceCount": 5,
+  "sources": [
+    "AISalonSpaBookingOptimizer",
+    "AITattooBodyArtStudioManager",
+    "beautyhqio",
+    "Boulevard",
+    "hairSalon"
+  ],
+  "status": "proposed build; not implemented",
+  "canonicalFeatureStatus": "Requires feature-level mapping and workflow migration; source route counts are not feature-completion counts.",
+  "port": 46002,
+  "productName": "Salon, spa Workspace",
+  "runtimeVersion": "1.0.0",
+  "sourceRoots": [
+    "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+    "/Volumes/external/projects/AITattooBodyArtStudioManager",
+    "/Volumes/external/projects/beautyhqio",
+    "/Volumes/external/projects/Boulevard",
+    "/Volumes/external/projects/hairSalon"
+  ]
+}

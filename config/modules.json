@@ -1,0 +1,32 @@
+[
+  {
+    "id": "AISalonSpaBookingOptimizer",
+    "name": "Salon spa booking optimizer",
+    "sourceProject": "AISalonSpaBookingOptimizer",
+    "services": []
+  },
+  {
+    "id": "AITattooBodyArtStudioManager",
+    "name": "Tattoo body art studio manager",
+    "sourceProject": "AITattooBodyArtStudioManager",
+    "services": []
+  },
+  {
+    "id": "beautyhqio",
+    "name": "Beautyhqio",
+    "sourceProject": "beautyhqio",
+    "services": []
+  },
+  {
+    "id": "Boulevard",
+    "name": "Boulevard",
+    "sourceProject": "Boulevard",
+    "services": []
+  },
+  {
+    "id": "hairSalon",
+    "name": "Hair salon",
+    "sourceProject": "hairSalon",
+    "services": []
+  }
+]

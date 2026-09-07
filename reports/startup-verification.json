@@ -1,0 +1,8 @@
+{
+  "id": "beauty-platform",
+  "port": 46002,
+  "status": "passed",
+  "startScript": true,
+  "health": true,
+  "verifiedAt": "2026-09-07T14:38:24.533Z"
+}

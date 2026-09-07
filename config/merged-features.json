@@ -1,0 +1,6496 @@
+[
+  {
+    "id": "clients",
+    "title": "Clients & customers",
+    "group": "Workspace",
+    "description": "Organize clients & customers and track progress.",
+    "fields": [
+      {
+        "name": "full_name",
+        "label": "Full name",
+        "type": "text"
+      },
+      {
+        "name": "email",
+        "label": "Email",
+        "type": "text"
+      },
+      {
+        "name": "phone",
+        "label": "Phone",
+        "type": "text"
+      },
+      {
+        "name": "organization",
+        "label": "Organization",
+        "type": "text"
+      },
+      {
+        "name": "address",
+        "label": "Address",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISalonSpaBookingOptimizer",
+        "path": "clients",
+        "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+        "kind": "route",
+        "label": "Clients"
+      },
+      {
+        "module": "AITattooBodyArtStudioManager",
+        "path": "clients",
+        "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+        "kind": "route",
+        "label": "Clients"
+      },
+      {
+        "module": "beautyhqio",
+        "path": "/clients",
+        "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+        "kind": "definition",
+        "label": "Clients"
+      },
+      {
+        "module": "Boulevard",
+        "path": "/clients",
+        "source": "/Volumes/external/projects/Boulevard/src/components/Layout.tsx",
+        "kind": "definition",
+        "label": "Clients"
+      },
+      {
+        "module": "hairSalon",
+        "path": "/clients",
+        "source": "/Volumes/external/projects/hairSalon/src/app/(dashboard)/dashboard/page.tsx",
+        "kind": "definition",
+        "label": "Clients"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/clients",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "matters",
+    "title": "Work items & projects",
+    "group": "Workspace",
+    "description": "Organize work items & projects and track progress.",
+    "fields": [
+      {
+        "name": "reference",
+        "label": "Reference",
+        "type": "text"
+      },
+      {
+        "name": "jurisdiction",
+        "label": "Jurisdiction",
+        "type": "text"
+      },
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "owner",
+        "label": "Owner",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/matters",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "contacts",
+    "title": "Contacts & parties",
+    "group": "Workspace",
+    "description": "Organize contacts & parties and track progress.",
+    "fields": [
+      {
+        "name": "full_name",
+        "label": "Full name",
+        "type": "text"
+      },
+      {
+        "name": "email",
+        "label": "Email",
+        "type": "text"
+      },
+      {
+        "name": "phone",
+        "label": "Phone",
+        "type": "text"
+      },
+      {
+        "name": "organization",
+        "label": "Organization",
+        "type": "text"
+      },
+      {
+        "name": "relationship",
+        "label": "Relationship",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/contacts",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "tasks",
+    "title": "Tasks",
+    "group": "Workspace",
+    "description": "Organize tasks and track progress.",
+    "fields": [
+      {
+        "name": "assignee",
+        "label": "Assignee",
+        "type": "text"
+      },
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "priority",
+        "label": "Priority",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "hairSalon",
+        "path": "/tasks",
+        "source": "/Volumes/external/projects/hairSalon/src/app/(dashboard)/dashboard/page.tsx",
+        "kind": "definition",
+        "label": "Tasks"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/tasks",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "calendar",
+    "title": "Calendar",
+    "group": "Workspace",
+    "description": "Organize calendar and track progress.",
+    "fields": [
+      {
+        "name": "event_date",
+        "label": "Event date",
+        "type": "date"
+      },
+      {
+        "name": "location",
+        "label": "Location",
+        "type": "text"
+      },
+      {
+        "name": "attendees",
+        "label": "Attendees",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISalonSpaBookingOptimizer",
+        "path": "calendar",
+        "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+        "kind": "route",
+        "label": "Calendar"
+      },
+      {
+        "module": "beautyhqio",
+        "path": "/calendar",
+        "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+        "kind": "definition",
+        "label": "Calendar"
+      },
+      {
+        "module": "Boulevard",
+        "path": "/calendar",
+        "source": "/Volumes/external/projects/Boulevard/src/components/Layout.tsx",
+        "kind": "definition",
+        "label": "Calendar"
+      },
+      {
+        "module": "hairSalon",
+        "path": "/calendar",
+        "source": "/Volumes/external/projects/hairSalon/src/app/(dashboard)/dashboard/page.tsx",
+        "kind": "definition",
+        "label": "Calendar"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/calendar",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "deadlines",
+    "title": "Deadlines & reminders",
+    "group": "Workspace",
+    "description": "Organize deadlines & reminders and track progress.",
+    "fields": [
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "owner",
+        "label": "Owner",
+        "type": "text"
+      },
+      {
+        "name": "requirements",
+        "label": "Requirements",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISalonSpaBookingOptimizer",
+        "path": "reminders",
+        "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+        "kind": "route",
+        "label": "Reminders"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/deadlines",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "notes",
+    "title": "Notes",
+    "group": "Workspace",
+    "description": "Organize notes and track progress.",
+    "fields": [
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/notes",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "documents",
+    "title": "Documents",
+    "group": "Workspace",
+    "description": "Organize documents and track progress.",
+    "fields": [
+      {
+        "name": "document_type",
+        "label": "Document type",
+        "type": "text"
+      },
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/documents",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "templates",
+    "title": "Templates",
+    "group": "Workspace",
+    "description": "Organize templates and track progress.",
+    "fields": [
+      {
+        "name": "document_type",
+        "label": "Document type",
+        "type": "text"
+      },
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/templates",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "billing",
+    "title": "Invoices & billing",
+    "group": "Workspace",
+    "description": "Organize invoices & billing and track progress.",
+    "fields": [
+      {
+        "name": "invoice_number",
+        "label": "Invoice number",
+        "type": "text"
+      },
+      {
+        "name": "amount",
+        "label": "Amount",
+        "type": "number"
+      },
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "payment_status",
+        "label": "Payment status",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "beautyhqio",
+        "path": "/billing",
+        "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+        "kind": "definition",
+        "label": "Billing"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/billing",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "time",
+    "title": "Time tracking",
+    "group": "Workspace",
+    "description": "Organize time tracking and track progress.",
+    "fields": [
+      {
+        "name": "work_date",
+        "label": "Work date",
+        "type": "date"
+      },
+      {
+        "name": "hours",
+        "label": "Hours",
+        "type": "number"
+      },
+      {
+        "name": "rate",
+        "label": "Rate",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "beautyhqio",
+        "path": "/timesheets",
+        "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+        "kind": "definition",
+        "label": "Timesheets"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/time",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "messages",
+    "title": "Messages & communications",
+    "group": "Workspace",
+    "description": "Organize messages & communications and track progress.",
+    "fields": [
+      {
+        "name": "recipient",
+        "label": "Recipient",
+        "type": "text"
+      },
+      {
+        "name": "subject",
+        "label": "Subject",
+        "type": "text"
+      },
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISalonSpaBookingOptimizer",
+        "path": "communications",
+        "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+        "kind": "route",
+        "label": "Communications"
+      },
+      {
+        "module": "Boulevard",
+        "path": "/notifications",
+        "source": "/Volumes/external/projects/Boulevard/src/components/Layout.tsx",
+        "kind": "definition",
+        "label": "Notifications"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/messages",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "reports",
+    "title": "Reports & analytics",
+    "group": "Workspace",
+    "description": "Organize reports & analytics and track progress.",
+    "fields": [],
+    "ai": false,
+    "mode": "report",
+    "sources": [
+      {
+        "module": "AISalonSpaBookingOptimizer",
+        "path": "reports",
+        "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+        "kind": "route",
+        "label": "Reports"
+      },
+      {
+        "module": "beautyhqio",
+        "path": "/reports",
+        "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+        "kind": "definition",
+        "label": "Reports"
+      },
+      {
+        "module": "Boulevard",
+        "path": "/analytics",
+        "source": "/Volumes/external/projects/Boulevard/src/components/Layout.tsx",
+        "kind": "definition",
+        "label": "Analytics"
+      },
+      {
+        "module": "hairSalon",
+        "path": "/reports",
+        "source": "/Volumes/external/projects/hairSalon/src/app/(dashboard)/dashboard/page.tsx",
+        "kind": "definition",
+        "label": "Reports"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/reports",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "audit",
+    "title": "Activity & audit trail",
+    "group": "Workspace",
+    "description": "Organize activity & audit trail and track progress.",
+    "fields": [],
+    "ai": false,
+    "mode": "audit",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/audit",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "connections",
+    "title": "Provider connections",
+    "group": "Workspace",
+    "description": "Prepare provider connections requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "provider_name",
+        "label": "Provider name",
+        "type": "text"
+      },
+      {
+        "name": "endpoint_url",
+        "label": "Endpoint url",
+        "type": "text"
+      },
+      {
+        "name": "purpose",
+        "label": "Purpose",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "beautyhqio",
+        "path": "/operations/integrations",
+        "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+        "kind": "definition",
+        "label": "Provider Connections"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/connections",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "stylist-match",
+    "title": "AI Stylist Matching",
+    "group": "Salon spa booking optimizer",
+    "description": "Organize ai stylist matching and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISalonSpaBookingOptimizer",
+        "path": "stylist-match",
+        "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer/client/src/pages/AIFeaturesPage.js",
+        "kind": "definition",
+        "label": "AI Stylist Matching"
+      }
+    ],
+    "owner": "AISalonSpaBookingOptimizer",
+    "alternatives": [],
+    "path": "/features/stylist-match",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "duration-predict",
+    "title": "Service Duration Prediction",
+    "group": "Salon spa booking optimizer",
+    "description": "Organize service duration prediction and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISalonSpaBookingOptimizer",
+        "path": "duration-predict",
+        "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer/client/src/pages/AIFeaturesPage.js",
+        "kind": "definition",
+        "label": "Service Duration Prediction"
+      }
+    ],
+    "owner": "AISalonSpaBookingOptimizer",
+    "alternatives": [],
+    "path": "/features/duration-predict",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "product-recommend",
+    "title": "Product Recommendation",
+    "group": "Salon spa booking optimizer",
+    "description": "Organize product recommendation and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISalonSpaBookingOptimizer",
+        "path": "product-recommend",
+        "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer/client/src/pages/AIFeaturesPage.js",
+        "kind": "definition",
+        "label": "Product Recommendation"
+      }
+    ],
+    "owner": "AISalonSpaBookingOptimizer",
+    "alternatives": [],
+    "path": "/features/product-recommend",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "rebook-suggest",
+    "title": "Rebooking Automation",
+    "group": "Salon spa booking optimizer",
+    "description": "Organize rebooking automation and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISalonSpaBookingOptimizer",
+        "path": "rebook-suggest",
+        "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer/client/src/pages/AIFeaturesPage.js",
+        "kind": "definition",
+        "label": "Rebooking Automation"
+      }
+    ],
+    "owner": "AISalonSpaBookingOptimizer",
+    "alternatives": [],
+    "path": "/features/rebook-suggest",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "waitlist-optimize",
+    "title": "Waitlist Optimizer",
+    "group": "Salon spa booking optimizer",
+    "description": "Organize waitlist optimizer and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISalonSpaBookingOptimizer",
+        "path": "waitlist-optimize",
+        "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer/client/src/pages/AIFeaturesPage.js",
+        "kind": "definition",
+        "label": "Waitlist Optimizer"
+      }
+    ],
+    "owner": "AISalonSpaBookingOptimizer",
+    "alternatives": [],
+    "path": "/features/waitlist-optimize",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "stylists",
+    "title": "Stylists",
+    "group": "Salon spa booking optimizer",
+    "description": "Organize stylists and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISalonSpaBookingOptimizer",
+        "path": "stylists",
+        "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+        "kind": "route",
+        "label": "Stylists"
+      }
+    ],
+    "owner": "AISalonSpaBookingOptimizer",
+    "alternatives": [],
+    "path": "/features/stylists",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "services",
+    "title": "Services",
+    "group": "Salon spa booking optimizer",
+    "description": "Organize services and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISalonSpaBookingOptimizer",
+        "path": "services",
+        "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+        "kind": "route",
+        "label": "Services"
+      },
+      {
+        "module": "beautyhqio",
+        "path": "/services",
+        "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+        "kind": "definition",
+        "label": "Services"
+      },
+      {
+        "module": "Boulevard",
+        "path": "/services",
+        "source": "/Volumes/external/projects/Boulevard/src/components/Layout.tsx",
+        "kind": "definition",
+        "label": "Services"
+      },
+      {
+        "module": "hairSalon",
+        "path": "/services",
+        "source": "/Volumes/external/projects/hairSalon/src/app/(dashboard)/dashboard/page.tsx",
+        "kind": "definition",
+        "label": "Services"
+      }
+    ],
+    "owner": "AISalonSpaBookingOptimizer",
+    "alternatives": [],
+    "path": "/features/services",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "bookings",
+    "title": "Bookings",
+    "group": "Salon spa booking optimizer",
+    "description": "Organize bookings and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISalonSpaBookingOptimizer",
+        "path": "bookings",
+        "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+        "kind": "route",
+        "label": "Bookings"
+      }
+    ],
+    "owner": "AISalonSpaBookingOptimizer",
+    "alternatives": [],
+    "path": "/features/bookings",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "products",
+    "title": "Products",
+    "group": "Salon spa booking optimizer",
+    "description": "Organize products and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISalonSpaBookingOptimizer",
+        "path": "products",
+        "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+        "kind": "route",
+        "label": "Products"
+      },
+      {
+        "module": "beautyhqio",
+        "path": "/products",
+        "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+        "kind": "definition",
+        "label": "Products"
+      }
+    ],
+    "owner": "AISalonSpaBookingOptimizer",
+    "alternatives": [],
+    "path": "/features/products",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "waitlist",
+    "title": "Waitlist",
+    "group": "Salon spa booking optimizer",
+    "description": "Organize waitlist and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISalonSpaBookingOptimizer",
+        "path": "waitlist",
+        "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+        "kind": "route",
+        "label": "Waitlist"
+      },
+      {
+        "module": "beautyhqio",
+        "path": "waitlist",
+        "source": "/Volumes/external/projects/beautyhqio/src/app/(dashboard)/ai/page.tsx",
+        "kind": "definition",
+        "label": "Smart Waitlist"
+      },
+      {
+        "module": "hairSalon",
+        "path": "/waitlist",
+        "source": "/Volumes/external/projects/hairSalon/src/app/(dashboard)/dashboard/page.tsx",
+        "kind": "definition",
+        "label": "Waitlist"
+      }
+    ],
+    "owner": "AISalonSpaBookingOptimizer",
+    "alternatives": [],
+    "path": "/features/waitlist",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "schedules",
+    "title": "Schedules",
+    "group": "Salon spa booking optimizer",
+    "description": "Organize schedules and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISalonSpaBookingOptimizer",
+        "path": "schedules",
+        "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+        "kind": "route",
+        "label": "Schedules"
+      }
+    ],
+    "owner": "AISalonSpaBookingOptimizer",
+    "alternatives": [],
+    "path": "/features/schedules",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "reviews",
+    "title": "Reviews",
+    "group": "Salon spa booking optimizer",
+    "description": "Organize reviews and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISalonSpaBookingOptimizer",
+        "path": "reviews",
+        "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+        "kind": "route",
+        "label": "Reviews"
+      },
+      {
+        "module": "beautyhqio",
+        "path": "/reviews",
+        "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+        "kind": "definition",
+        "label": "Reviews"
+      }
+    ],
+    "owner": "AISalonSpaBookingOptimizer",
+    "alternatives": [],
+    "path": "/features/reviews",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "promotions",
+    "title": "Promotions",
+    "group": "Salon spa booking optimizer",
+    "description": "Organize promotions and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISalonSpaBookingOptimizer",
+        "path": "promotions",
+        "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+        "kind": "route",
+        "label": "Promotions"
+      }
+    ],
+    "owner": "AISalonSpaBookingOptimizer",
+    "alternatives": [],
+    "path": "/features/promotions",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "inventory",
+    "title": "Inventory",
+    "group": "Salon spa booking optimizer",
+    "description": "Organize inventory and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISalonSpaBookingOptimizer",
+        "path": "inventory",
+        "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+        "kind": "route",
+        "label": "Inventory"
+      },
+      {
+        "module": "AITattooBodyArtStudioManager",
+        "path": "inventory",
+        "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+        "kind": "route",
+        "label": "Inventory"
+      },
+      {
+        "module": "beautyhqio",
+        "path": "inventory",
+        "source": "/Volumes/external/projects/beautyhqio/src/app/(dashboard)/ai/page.tsx",
+        "kind": "definition",
+        "label": "Inventory Forecast"
+      },
+      {
+        "module": "hairSalon",
+        "path": "/inventory",
+        "source": "/Volumes/external/projects/hairSalon/src/app/(dashboard)/dashboard/page.tsx",
+        "kind": "definition",
+        "label": "Inventory"
+      }
+    ],
+    "owner": "AISalonSpaBookingOptimizer",
+    "alternatives": [],
+    "path": "/features/inventory",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "loyalty",
+    "title": "Loyalty",
+    "group": "Salon spa booking optimizer",
+    "description": "Organize loyalty and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISalonSpaBookingOptimizer",
+        "path": "loyalty",
+        "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+        "kind": "route",
+        "label": "Loyalty"
+      },
+      {
+        "module": "AITattooBodyArtStudioManager",
+        "path": "loyalty",
+        "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+        "kind": "route",
+        "label": "Loyalty"
+      },
+      {
+        "module": "beautyhqio",
+        "path": "/loyalty",
+        "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+        "kind": "definition",
+        "label": "Loyalty"
+      },
+      {
+        "module": "hairSalon",
+        "path": "/loyalty",
+        "source": "/Volumes/external/projects/hairSalon/src/app/(dashboard)/dashboard/page.tsx",
+        "kind": "definition",
+        "label": "Loyalty"
+      }
+    ],
+    "owner": "AISalonSpaBookingOptimizer",
+    "alternatives": [],
+    "path": "/features/loyalty",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "giftcards",
+    "title": "Giftcards",
+    "group": "Salon spa booking optimizer",
+    "description": "Organize giftcards and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISalonSpaBookingOptimizer",
+        "path": "giftcards",
+        "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+        "kind": "route",
+        "label": "Giftcards"
+      }
+    ],
+    "owner": "AISalonSpaBookingOptimizer",
+    "alternatives": [],
+    "path": "/features/giftcards",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "expenses",
+    "title": "Expenses",
+    "group": "Salon spa booking optimizer",
+    "description": "Organize expenses and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISalonSpaBookingOptimizer",
+        "path": "expenses",
+        "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+        "kind": "route",
+        "label": "Expenses"
+      }
+    ],
+    "owner": "AISalonSpaBookingOptimizer",
+    "alternatives": [],
+    "path": "/features/expenses",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "performance",
+    "title": "Performance",
+    "group": "Salon spa booking optimizer",
+    "description": "Organize performance and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISalonSpaBookingOptimizer",
+        "path": "performance",
+        "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+        "kind": "route",
+        "label": "Performance"
+      }
+    ],
+    "owner": "AISalonSpaBookingOptimizer",
+    "alternatives": [],
+    "path": "/features/performance",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "tips",
+    "title": "Tips",
+    "group": "Salon spa booking optimizer",
+    "description": "Organize tips and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISalonSpaBookingOptimizer",
+        "path": "tips",
+        "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+        "kind": "route",
+        "label": "Tips"
+      },
+      {
+        "module": "hairSalon",
+        "path": "/tips",
+        "source": "/Volumes/external/projects/hairSalon/src/app/(dashboard)/dashboard/page.tsx",
+        "kind": "definition",
+        "label": "Tips"
+      }
+    ],
+    "owner": "AISalonSpaBookingOptimizer",
+    "alternatives": [],
+    "path": "/features/tips",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "checkin",
+    "title": "Checkin",
+    "group": "Salon spa booking optimizer",
+    "description": "Organize checkin and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISalonSpaBookingOptimizer",
+        "path": "checkin",
+        "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+        "kind": "route",
+        "label": "Checkin"
+      }
+    ],
+    "owner": "AISalonSpaBookingOptimizer",
+    "alternatives": [],
+    "path": "/features/checkin",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "memberships",
+    "title": "Memberships",
+    "group": "Salon spa booking optimizer",
+    "description": "Organize memberships and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISalonSpaBookingOptimizer",
+        "path": "memberships",
+        "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+        "kind": "route",
+        "label": "Memberships"
+      },
+      {
+        "module": "hairSalon",
+        "path": "/memberships",
+        "source": "/Volumes/external/projects/hairSalon/src/app/(dashboard)/dashboard/page.tsx",
+        "kind": "definition",
+        "label": "Memberships"
+      }
+    ],
+    "owner": "AISalonSpaBookingOptimizer",
+    "alternatives": [],
+    "path": "/features/memberships",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "suppliers",
+    "title": "Suppliers",
+    "group": "Salon spa booking optimizer",
+    "description": "Organize suppliers and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISalonSpaBookingOptimizer",
+        "path": "suppliers",
+        "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+        "kind": "route",
+        "label": "Suppliers"
+      }
+    ],
+    "owner": "AISalonSpaBookingOptimizer",
+    "alternatives": [],
+    "path": "/features/suppliers",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "payroll",
+    "title": "Payroll",
+    "group": "Salon spa booking optimizer",
+    "description": "Organize payroll and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISalonSpaBookingOptimizer",
+        "path": "payroll",
+        "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+        "kind": "route",
+        "label": "Payroll"
+      }
+    ],
+    "owner": "AISalonSpaBookingOptimizer",
+    "alternatives": [],
+    "path": "/features/payroll",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "booking-calendar",
+    "title": "Booking calendar",
+    "group": "Salon spa booking optimizer",
+    "description": "Organize booking calendar and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISalonSpaBookingOptimizer",
+        "path": "booking-calendar",
+        "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+        "kind": "route",
+        "label": "Booking calendar"
+      }
+    ],
+    "owner": "AISalonSpaBookingOptimizer",
+    "alternatives": [],
+    "path": "/features/booking-calendar",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "commissions",
+    "title": "Commissions",
+    "group": "Salon spa booking optimizer",
+    "description": "Organize commissions and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISalonSpaBookingOptimizer",
+        "path": "commissions",
+        "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+        "kind": "route",
+        "label": "Commissions"
+      },
+      {
+        "module": "AITattooBodyArtStudioManager",
+        "path": "commissions",
+        "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+        "kind": "route",
+        "label": "Commissions"
+      },
+      {
+        "module": "hairSalon",
+        "path": "/commissions",
+        "source": "/Volumes/external/projects/hairSalon/src/app/(dashboard)/dashboard/page.tsx",
+        "kind": "definition",
+        "label": "Commissions"
+      }
+    ],
+    "owner": "AISalonSpaBookingOptimizer",
+    "alternatives": [],
+    "path": "/features/commissions",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "rebook-queue",
+    "title": "Rebook queue",
+    "group": "Salon spa booking optimizer",
+    "description": "Organize rebook queue and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISalonSpaBookingOptimizer",
+        "path": "rebook-queue",
+        "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+        "kind": "route",
+        "label": "Rebook queue"
+      }
+    ],
+    "owner": "AISalonSpaBookingOptimizer",
+    "alternatives": [],
+    "path": "/features/rebook-queue",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "service-demand-forecast",
+    "title": "Service demand forecast",
+    "group": "Salon spa booking optimizer",
+    "description": "Organize service demand forecast and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISalonSpaBookingOptimizer",
+        "path": "ai/service-demand-forecast",
+        "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+        "kind": "route",
+        "label": "Service demand forecast"
+      }
+    ],
+    "owner": "AISalonSpaBookingOptimizer",
+    "alternatives": [],
+    "path": "/features/service-demand-forecast",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "stylist-workload-balance",
+    "title": "Stylist workload balance",
+    "group": "Salon spa booking optimizer",
+    "description": "Organize stylist workload balance and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISalonSpaBookingOptimizer",
+        "path": "ai/stylist-workload-balance",
+        "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+        "kind": "route",
+        "label": "Stylist workload balance"
+      }
+    ],
+    "owner": "AISalonSpaBookingOptimizer",
+    "alternatives": [],
+    "path": "/features/stylist-workload-balance",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "appointment-conflict-detection",
+    "title": "Appointment conflict detection",
+    "group": "Salon spa booking optimizer",
+    "description": "Organize appointment conflict detection and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISalonSpaBookingOptimizer",
+        "path": "ai/appointment-conflict-detection",
+        "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+        "kind": "route",
+        "label": "Appointment conflict detection"
+      }
+    ],
+    "owner": "AISalonSpaBookingOptimizer",
+    "alternatives": [],
+    "path": "/features/appointment-conflict-detection",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "commission-optimization",
+    "title": "Commission optimization",
+    "group": "Salon spa booking optimizer",
+    "description": "Organize commission optimization and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISalonSpaBookingOptimizer",
+        "path": "ai/commission-optimization",
+        "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+        "kind": "route",
+        "label": "Commission optimization"
+      }
+    ],
+    "owner": "AISalonSpaBookingOptimizer",
+    "alternatives": [],
+    "path": "/features/commission-optimization",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "retail-recommend",
+    "title": "Retail recommend",
+    "group": "Salon spa booking optimizer",
+    "description": "Organize retail recommend and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISalonSpaBookingOptimizer",
+        "path": "ai/retail-recommend",
+        "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+        "kind": "route",
+        "label": "Retail recommend"
+      }
+    ],
+    "owner": "AISalonSpaBookingOptimizer",
+    "alternatives": [],
+    "path": "/features/retail-recommend",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "smart-service-bundling",
+    "title": "smart service bundling",
+    "group": "Salon spa booking optimizer",
+    "description": "Organize smart service bundling and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISalonSpaBookingOptimizer",
+        "path": "cf-smart-service-bundling",
+        "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+        "kind": "route",
+        "label": "smart service bundling"
+      }
+    ],
+    "owner": "AISalonSpaBookingOptimizer",
+    "alternatives": [],
+    "path": "/features/smart-service-bundling",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "stylist-skill-tagging-matching",
+    "title": "stylist skill tagging matching",
+    "group": "Salon spa booking optimizer",
+    "description": "Organize stylist skill tagging matching and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISalonSpaBookingOptimizer",
+        "path": "cf-stylist-skill-tagging-matching",
+        "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+        "kind": "route",
+        "label": "stylist skill tagging matching"
+      }
+    ],
+    "owner": "AISalonSpaBookingOptimizer",
+    "alternatives": [],
+    "path": "/features/stylist-skill-tagging-matching",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "dynamic-service-pricing",
+    "title": "dynamic service pricing",
+    "group": "Salon spa booking optimizer",
+    "description": "Organize dynamic service pricing and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISalonSpaBookingOptimizer",
+        "path": "cf-dynamic-service-pricing",
+        "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+        "kind": "route",
+        "label": "dynamic service pricing"
+      }
+    ],
+    "owner": "AISalonSpaBookingOptimizer",
+    "alternatives": [],
+    "path": "/features/dynamic-service-pricing",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "client-lifetime-value-scoring",
+    "title": "client lifetime value scoring",
+    "group": "Salon spa booking optimizer",
+    "description": "Organize client lifetime value scoring and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISalonSpaBookingOptimizer",
+        "path": "cf-client-lifetime-value-scoring",
+        "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+        "kind": "route",
+        "label": "client lifetime value scoring"
+      }
+    ],
+    "owner": "AISalonSpaBookingOptimizer",
+    "alternatives": [],
+    "path": "/features/client-lifetime-value-scoring",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "inventory-management-automation",
+    "title": "inventory management automation",
+    "group": "Salon spa booking optimizer",
+    "description": "Organize inventory management automation and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISalonSpaBookingOptimizer",
+        "path": "cf-inventory-management-automation",
+        "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+        "kind": "route",
+        "label": "inventory management automation"
+      }
+    ],
+    "owner": "AISalonSpaBookingOptimizer",
+    "alternatives": [],
+    "path": "/features/inventory-management-automation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "waitlist-fulfillment-ai",
+    "title": "waitlist fulfillment ai",
+    "group": "Salon spa booking optimizer",
+    "description": "Organize waitlist fulfillment ai and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISalonSpaBookingOptimizer",
+        "path": "cf-waitlist-fulfillment-ai",
+        "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+        "kind": "route",
+        "label": "waitlist fulfillment ai"
+      }
+    ],
+    "owner": "AISalonSpaBookingOptimizer",
+    "alternatives": [],
+    "path": "/features/waitlist-fulfillment-ai",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "servicedemandforecast-busytime-prediction",
+    "title": "servicedemandforecast busytime prediction",
+    "group": "Salon spa booking optimizer",
+    "description": "Organize servicedemandforecast busytime prediction and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISalonSpaBookingOptimizer",
+        "path": "gap-no-servicedemandforecast-busytime-prediction",
+        "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+        "kind": "route",
+        "label": "servicedemandforecast busytime prediction"
+      }
+    ],
+    "owner": "AISalonSpaBookingOptimizer",
+    "alternatives": [],
+    "path": "/features/servicedemandforecast-busytime-prediction",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "stylistworkloadbalance",
+    "title": "stylistworkloadbalance",
+    "group": "Salon spa booking optimizer",
+    "description": "Organize stylistworkloadbalance and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISalonSpaBookingOptimizer",
+        "path": "gap-no-stylistworkloadbalance",
+        "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+        "kind": "route",
+        "label": "stylistworkloadbalance"
+      }
+    ],
+    "owner": "AISalonSpaBookingOptimizer",
+    "alternatives": [],
+    "path": "/features/stylistworkloadbalance",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "commissionoptimization",
+    "title": "commissionoptimization",
+    "group": "Salon spa booking optimizer",
+    "description": "Organize commissionoptimization and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISalonSpaBookingOptimizer",
+        "path": "gap-no-commissionoptimization",
+        "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+        "kind": "route",
+        "label": "commissionoptimization"
+      }
+    ],
+    "owner": "AISalonSpaBookingOptimizer",
+    "alternatives": [],
+    "path": "/features/commissionoptimization",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "retailrecommend-product-to-add-to-service",
+    "title": "retailrecommend product to add to service",
+    "group": "Salon spa booking optimizer",
+    "description": "Organize retailrecommend product to add to service and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISalonSpaBookingOptimizer",
+        "path": "gap-no-retailrecommend-product-to-add-to-service",
+        "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+        "kind": "route",
+        "label": "retailrecommend product to add to service"
+      }
+    ],
+    "owner": "AISalonSpaBookingOptimizer",
+    "alternatives": [],
+    "path": "/features/retailrecommend-product-to-add-to-service",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "appointmentconflictdetection",
+    "title": "appointmentconflictdetection",
+    "group": "Salon spa booking optimizer",
+    "description": "Organize appointmentconflictdetection and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISalonSpaBookingOptimizer",
+        "path": "gap-no-appointmentconflictdetection",
+        "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+        "kind": "route",
+        "label": "appointmentconflictdetection"
+      }
+    ],
+    "owner": "AISalonSpaBookingOptimizer",
+    "alternatives": [],
+    "path": "/features/appointmentconflictdetection",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "noshow-prediction",
+    "title": "noshow prediction",
+    "group": "Salon spa booking optimizer",
+    "description": "Organize noshow prediction and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISalonSpaBookingOptimizer",
+        "path": "gap-no-noshow-prediction",
+        "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+        "kind": "route",
+        "label": "noshow prediction"
+      }
+    ],
+    "owner": "AISalonSpaBookingOptimizer",
+    "alternatives": [],
+    "path": "/features/noshow-prediction",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "public-online-booking-widget-api",
+    "title": "public online booking widget api",
+    "group": "Salon spa booking optimizer",
+    "description": "Organize public online booking widget api and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISalonSpaBookingOptimizer",
+        "path": "gap-no-public-online-booking-widget-api",
+        "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+        "kind": "route",
+        "label": "public online booking widget api"
+      }
+    ],
+    "owner": "AISalonSpaBookingOptimizer",
+    "alternatives": [],
+    "path": "/features/public-online-booking-widget-api",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "automated-reminder-smsemail-communication",
+    "title": "automated reminder smsemail communication",
+    "group": "Salon spa booking optimizer",
+    "description": "Organize automated reminder smsemail communication and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISalonSpaBookingOptimizer",
+        "path": "gap-no-automated-reminder-smsemail-communication",
+        "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+        "kind": "route",
+        "label": "automated reminder smsemail communication"
+      }
+    ],
+    "owner": "AISalonSpaBookingOptimizer",
+    "alternatives": [],
+    "path": "/features/automated-reminder-smsemail-communication",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "supplier-reorder-automation",
+    "title": "supplier reorder automation",
+    "group": "Salon spa booking optimizer",
+    "description": "Organize supplier reorder automation and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISalonSpaBookingOptimizer",
+        "path": "gap-no-supplier-reorder-automation",
+        "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+        "kind": "route",
+        "label": "supplier reorder automation"
+      }
+    ],
+    "owner": "AISalonSpaBookingOptimizer",
+    "alternatives": [],
+    "path": "/features/supplier-reorder-automation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "staff-absence-coverage-planning",
+    "title": "staff absence coverage planning",
+    "group": "Salon spa booking optimizer",
+    "description": "Organize staff absence coverage planning and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISalonSpaBookingOptimizer",
+        "path": "gap-no-staff-absence-coverage-planning",
+        "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+        "kind": "route",
+        "label": "staff absence coverage planning"
+      }
+    ],
+    "owner": "AISalonSpaBookingOptimizer",
+    "alternatives": [],
+    "path": "/features/staff-absence-coverage-planning",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "payment-processor-integration",
+    "title": "payment processor integration",
+    "group": "Salon spa booking optimizer",
+    "description": "Prepare payment processor integration requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AISalonSpaBookingOptimizer",
+        "path": "gap-no-payment-processor-integration",
+        "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+        "kind": "route",
+        "label": "payment processor integration"
+      }
+    ],
+    "owner": "AISalonSpaBookingOptimizer",
+    "alternatives": [],
+    "path": "/features/payment-processor-integration",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "pos-hardware-integration",
+    "title": "pos hardware integration",
+    "group": "Salon spa booking optimizer",
+    "description": "Prepare pos hardware integration requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AISalonSpaBookingOptimizer",
+        "path": "gap-no-pos-hardware-integration",
+        "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+        "kind": "route",
+        "label": "pos hardware integration"
+      }
+    ],
+    "owner": "AISalonSpaBookingOptimizer",
+    "alternatives": [],
+    "path": "/features/pos-hardware-integration",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "flash-design-generator",
+    "title": "Flash Design Generator",
+    "group": "Tattoo body art studio manager",
+    "description": "Prepare flash design generator requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "description",
+        "label": "Design Description",
+        "type": "textarea"
+      },
+      {
+        "name": "style",
+        "label": "Style",
+        "type": "select",
+        "options": [
+          "",
+          "traditional",
+          "neo-traditional",
+          "japanese",
+          "realism",
+          "blackwork",
+          "watercolor",
+          "geometric",
+          "minimalist",
+          "dotwork",
+          "tribal",
+          "chicano",
+          "surrealism"
+        ]
+      },
+      {
+        "name": "size",
+        "label": "Size",
+        "type": "select",
+        "options": [
+          "",
+          "tiny",
+          "small",
+          "medium",
+          "large",
+          "extra-large",
+          "full-sleeve",
+          "half-sleeve",
+          "back-piece"
+        ]
+      },
+      {
+        "name": "placement",
+        "label": "Body Placement",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AITattooBodyArtStudioManager",
+        "path": "Flash Design Generator",
+        "source": "/Volumes/external/projects/AITattooBodyArtStudioManager/client/src/pages/AIPage.js",
+        "kind": "definition",
+        "label": "Flash Design Generator"
+      }
+    ],
+    "owner": "AITattooBodyArtStudioManager",
+    "alternatives": [],
+    "path": "/features/flash-design-generator",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "consent-form-customizer",
+    "title": "Consent Form Customizer",
+    "group": "Tattoo body art studio manager",
+    "description": "Auto-generate customized consent forms based on service and client details",
+    "fields": [
+      {
+        "name": "service_type",
+        "label": "Service Type",
+        "type": "select",
+        "options": [
+          "tattoo",
+          "piercing",
+          "microblading",
+          "permanent-makeup",
+          "scarification",
+          "tooth-gem"
+        ]
+      },
+      {
+        "name": "medical_conditions",
+        "label": "Medical Conditions",
+        "type": "textarea"
+      },
+      {
+        "name": "allergies",
+        "label": "Known Allergies",
+        "type": "textarea"
+      },
+      {
+        "name": "special_considerations",
+        "label": "Special Considerations",
+        "type": "textarea"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AITattooBodyArtStudioManager",
+        "path": "Consent Form Customizer",
+        "source": "/Volumes/external/projects/AITattooBodyArtStudioManager/client/src/pages/AIPage.js",
+        "kind": "definition",
+        "label": "Consent Form Customizer"
+      }
+    ],
+    "owner": "AITattooBodyArtStudioManager",
+    "alternatives": [],
+    "path": "/features/consent-form-customizer",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "aftercare-personalizer",
+    "title": "Aftercare Personalizer",
+    "group": "Tattoo body art studio manager",
+    "description": "Generate personalized aftercare instructions tailored to each client",
+    "fields": [
+      {
+        "name": "service_type",
+        "label": "Service Type",
+        "type": "select",
+        "options": [
+          "tattoo",
+          "piercing",
+          "microblading"
+        ]
+      },
+      {
+        "name": "skin_type",
+        "label": "Skin Type",
+        "type": "select",
+        "options": [
+          "normal",
+          "sensitive",
+          "dry",
+          "oily",
+          "combination",
+          "eczema-prone"
+        ]
+      },
+      {
+        "name": "placement",
+        "label": "Placement",
+        "type": "text"
+      },
+      {
+        "name": "size",
+        "label": "Size",
+        "type": "text"
+      },
+      {
+        "name": "medical_conditions",
+        "label": "Medical Conditions",
+        "type": "textarea"
+      },
+      {
+        "name": "allergies",
+        "label": "Allergies",
+        "type": "textarea"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AITattooBodyArtStudioManager",
+        "path": "Aftercare Personalizer",
+        "source": "/Volumes/external/projects/AITattooBodyArtStudioManager/client/src/pages/AIPage.js",
+        "kind": "definition",
+        "label": "Aftercare Personalizer"
+      }
+    ],
+    "owner": "AITattooBodyArtStudioManager",
+    "alternatives": [],
+    "path": "/features/aftercare-personalizer",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "social-media-caption-generator",
+    "title": "Social Media Caption Generator",
+    "group": "Tattoo body art studio manager",
+    "description": "Create engaging social media captions for your portfolio posts",
+    "fields": [
+      {
+        "name": "design_description",
+        "label": "Design Description",
+        "type": "textarea"
+      },
+      {
+        "name": "style",
+        "label": "Tattoo Style",
+        "type": "text"
+      },
+      {
+        "name": "artist_name",
+        "label": "Artist Name",
+        "type": "text"
+      },
+      {
+        "name": "platform",
+        "label": "Platform",
+        "type": "select",
+        "options": [
+          "Instagram",
+          "TikTok",
+          "Facebook",
+          "Twitter",
+          "Pinterest"
+        ]
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AITattooBodyArtStudioManager",
+        "path": "Social Media Caption Generator",
+        "source": "/Volumes/external/projects/AITattooBodyArtStudioManager/client/src/pages/AIPage.js",
+        "kind": "definition",
+        "label": "Social Media Caption Generator"
+      }
+    ],
+    "owner": "AITattooBodyArtStudioManager",
+    "alternatives": [],
+    "path": "/features/social-media-caption-generator",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "style-matcher",
+    "title": "Style Matcher",
+    "group": "Tattoo body art studio manager",
+    "description": "Match clients with the best artist based on style preferences and budget",
+    "fields": [
+      {
+        "name": "client_preferences",
+        "label": "Client Preferences",
+        "type": "textarea"
+      },
+      {
+        "name": "desired_style",
+        "label": "Desired Style",
+        "type": "text"
+      },
+      {
+        "name": "description",
+        "label": "Design Description",
+        "type": "textarea"
+      },
+      {
+        "name": "budget",
+        "label": "Budget ($)",
+        "type": "number"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AITattooBodyArtStudioManager",
+        "path": "Style Matcher",
+        "source": "/Volumes/external/projects/AITattooBodyArtStudioManager/client/src/pages/AIPage.js",
+        "kind": "definition",
+        "label": "Style Matcher"
+      }
+    ],
+    "owner": "AITattooBodyArtStudioManager",
+    "alternatives": [],
+    "path": "/features/style-matcher",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "portfolio-style-classifier",
+    "title": "Portfolio Style Classifier",
+    "group": "Tattoo body art studio manager",
+    "description": "Auto-classify portfolio pieces by style, theme, and technique.",
+    "fields": [
+      {
+        "name": "artist_name",
+        "label": "Artist Name",
+        "type": "text"
+      },
+      {
+        "name": "piece_descriptions",
+        "label": "Piece Descriptions",
+        "type": "textarea"
+      },
+      {
+        "name": "image_urls",
+        "label": "Image URLs (optional)",
+        "type": "textarea"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AITattooBodyArtStudioManager",
+        "path": "Portfolio Style Classifier",
+        "source": "/Volumes/external/projects/AITattooBodyArtStudioManager/client/src/pages/AIPage.js",
+        "kind": "definition",
+        "label": "Portfolio Style Classifier"
+      }
+    ],
+    "owner": "AITattooBodyArtStudioManager",
+    "alternatives": [],
+    "path": "/features/portfolio-style-classifier",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "demand-forecast",
+    "title": "Demand Forecast",
+    "group": "Tattoo body art studio manager",
+    "description": "Forecast peak booking hours and recommend artist scheduling.",
+    "fields": [
+      {
+        "name": "horizon_days",
+        "label": "Horizon (days)",
+        "type": "number"
+      },
+      {
+        "name": "location",
+        "label": "Location / Studio",
+        "type": "text"
+      },
+      {
+        "name": "season",
+        "label": "Season",
+        "type": "select",
+        "options": [
+          "",
+          "spring",
+          "summer",
+          "fall",
+          "winter"
+        ]
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AITattooBodyArtStudioManager",
+        "path": "Demand Forecast",
+        "source": "/Volumes/external/projects/AITattooBodyArtStudioManager/client/src/pages/AIPage.js",
+        "kind": "definition",
+        "label": "Demand Forecast"
+      }
+    ],
+    "owner": "AITattooBodyArtStudioManager",
+    "alternatives": [],
+    "path": "/features/demand-forecast",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "message-drafter",
+    "title": "Message Drafter",
+    "group": "Tattoo body art studio manager",
+    "description": "Draft professional booking confirmations, reminders, and follow-up messages",
+    "fields": [
+      {
+        "name": "message_type",
+        "label": "Message Type",
+        "type": "select",
+        "options": [
+          "booking confirmation",
+          "24-hour reminder",
+          "day-of reminder",
+          "rescheduling",
+          "cancellation",
+          "aftercare follow-up",
+          "thank you"
+        ]
+      },
+      {
+        "name": "client_name",
+        "label": "Client Name",
+        "type": "text"
+      },
+      {
+        "name": "appointment_date",
+        "label": "Appointment Date",
+        "type": "date"
+      },
+      {
+        "name": "appointment_time",
+        "label": "Appointment Time",
+        "type": "text"
+      },
+      {
+        "name": "artist_name",
+        "label": "Artist Name",
+        "type": "text"
+      },
+      {
+        "name": "service_type",
+        "label": "Service Type",
+        "type": "text"
+      },
+      {
+        "name": "custom_details",
+        "label": "Additional Details",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AITattooBodyArtStudioManager",
+        "path": "Message Drafter",
+        "source": "/Volumes/external/projects/AITattooBodyArtStudioManager/client/src/pages/AIPage.js",
+        "kind": "definition",
+        "label": "Message Drafter"
+      }
+    ],
+    "owner": "AITattooBodyArtStudioManager",
+    "alternatives": [],
+    "path": "/features/message-drafter",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "artists",
+    "title": "Artists",
+    "group": "Tattoo body art studio manager",
+    "description": "Organize artists and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AITattooBodyArtStudioManager",
+        "path": "artists",
+        "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+        "kind": "route",
+        "label": "Artists"
+      }
+    ],
+    "owner": "AITattooBodyArtStudioManager",
+    "alternatives": [],
+    "path": "/features/artists",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "appointments",
+    "title": "Appointments",
+    "group": "Tattoo body art studio manager",
+    "description": "Organize appointments and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AITattooBodyArtStudioManager",
+        "path": "appointments",
+        "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+        "kind": "route",
+        "label": "Appointments"
+      },
+      {
+        "module": "beautyhqio",
+        "path": "/appointments",
+        "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+        "kind": "definition",
+        "label": "Appointments"
+      }
+    ],
+    "owner": "AITattooBodyArtStudioManager",
+    "alternatives": [],
+    "path": "/features/appointments",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "consent",
+    "title": "Consent",
+    "group": "Tattoo body art studio manager",
+    "description": "Organize consent and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AITattooBodyArtStudioManager",
+        "path": "consent",
+        "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+        "kind": "route",
+        "label": "Consent"
+      }
+    ],
+    "owner": "AITattooBodyArtStudioManager",
+    "alternatives": [],
+    "path": "/features/consent",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "consultations",
+    "title": "Consultations",
+    "group": "Tattoo body art studio manager",
+    "description": "Organize consultations and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AITattooBodyArtStudioManager",
+        "path": "consultations",
+        "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+        "kind": "route",
+        "label": "Consultations"
+      }
+    ],
+    "owner": "AITattooBodyArtStudioManager",
+    "alternatives": [],
+    "path": "/features/consultations",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "sterilization",
+    "title": "Sterilization",
+    "group": "Tattoo body art studio manager",
+    "description": "Organize sterilization and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AITattooBodyArtStudioManager",
+        "path": "sterilization",
+        "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+        "kind": "route",
+        "label": "Sterilization"
+      }
+    ],
+    "owner": "AITattooBodyArtStudioManager",
+    "alternatives": [],
+    "path": "/features/sterilization",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "walkins",
+    "title": "Walkins",
+    "group": "Tattoo body art studio manager",
+    "description": "Organize walkins and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AITattooBodyArtStudioManager",
+        "path": "walkins",
+        "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+        "kind": "route",
+        "label": "Walkins"
+      }
+    ],
+    "owner": "AITattooBodyArtStudioManager",
+    "alternatives": [],
+    "path": "/features/walkins",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "gifts",
+    "title": "Gifts",
+    "group": "Tattoo body art studio manager",
+    "description": "Organize gifts and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AITattooBodyArtStudioManager",
+        "path": "gifts",
+        "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+        "kind": "route",
+        "label": "Gifts"
+      }
+    ],
+    "owner": "AITattooBodyArtStudioManager",
+    "alternatives": [],
+    "path": "/features/gifts",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "cleaning",
+    "title": "Cleaning",
+    "group": "Tattoo body art studio manager",
+    "description": "Organize cleaning and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AITattooBodyArtStudioManager",
+        "path": "cleaning",
+        "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+        "kind": "route",
+        "label": "Cleaning"
+      }
+    ],
+    "owner": "AITattooBodyArtStudioManager",
+    "alternatives": [],
+    "path": "/features/cleaning",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "flash",
+    "title": "Flash",
+    "group": "Tattoo body art studio manager",
+    "description": "Organize flash and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AITattooBodyArtStudioManager",
+        "path": "flash",
+        "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+        "kind": "route",
+        "label": "Flash"
+      }
+    ],
+    "owner": "AITattooBodyArtStudioManager",
+    "alternatives": [],
+    "path": "/features/flash",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "aftercare",
+    "title": "Aftercare",
+    "group": "Tattoo body art studio manager",
+    "description": "Organize aftercare and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AITattooBodyArtStudioManager",
+        "path": "aftercare",
+        "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+        "kind": "route",
+        "label": "Aftercare"
+      }
+    ],
+    "owner": "AITattooBodyArtStudioManager",
+    "alternatives": [],
+    "path": "/features/aftercare",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "healing",
+    "title": "Healing",
+    "group": "Tattoo body art studio manager",
+    "description": "Organize healing and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AITattooBodyArtStudioManager",
+        "path": "healing",
+        "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+        "kind": "route",
+        "label": "Healing"
+      }
+    ],
+    "owner": "AITattooBodyArtStudioManager",
+    "alternatives": [],
+    "path": "/features/healing",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "artist-performance",
+    "title": "Artist performance",
+    "group": "Tattoo body art studio manager",
+    "description": "Organize artist performance and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AITattooBodyArtStudioManager",
+        "path": "artist-performance",
+        "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+        "kind": "route",
+        "label": "Artist performance"
+      }
+    ],
+    "owner": "AITattooBodyArtStudioManager",
+    "alternatives": [],
+    "path": "/features/artist-performance",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "smart-booking",
+    "title": "Smart booking",
+    "group": "Tattoo body art studio manager",
+    "description": "Organize smart booking and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AITattooBodyArtStudioManager",
+        "path": "smart-booking",
+        "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+        "kind": "route",
+        "label": "Smart booking"
+      }
+    ],
+    "owner": "AITattooBodyArtStudioManager",
+    "alternatives": [],
+    "path": "/features/smart-booking",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "healing-outcome-prediction-by-artist-style-location-to",
+    "title": "healing outcome prediction by artist style location to",
+    "group": "Tattoo body art studio manager",
+    "description": "Organize healing outcome prediction by artist style location to and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AITattooBodyArtStudioManager",
+        "path": "cf-healing-outcome-prediction-by-artist-style-location-to",
+        "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+        "kind": "route",
+        "label": "healing outcome prediction by artist style location to"
+      }
+    ],
+    "owner": "AITattooBodyArtStudioManager",
+    "alternatives": [],
+    "path": "/features/healing-outcome-prediction-by-artist-style-location-to",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "portfolio-style-classification-auto-tagging-artist-work",
+    "title": "portfolio style classification auto tagging artist work",
+    "group": "Tattoo body art studio manager",
+    "description": "Organize portfolio style classification auto tagging artist work and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AITattooBodyArtStudioManager",
+        "path": "cf-portfolio-style-classification-auto-tagging-artist-work",
+        "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+        "kind": "route",
+        "label": "portfolio style classification auto tagging artist work"
+      }
+    ],
+    "owner": "AITattooBodyArtStudioManager",
+    "alternatives": [],
+    "path": "/features/portfolio-style-classification-auto-tagging-artist-work",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "demand-forecasting-to-optimize-artist-scheduling-for-peak",
+    "title": "demand forecasting to optimize artist scheduling for peak",
+    "group": "Tattoo body art studio manager",
+    "description": "Organize demand forecasting to optimize artist scheduling for peak and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AITattooBodyArtStudioManager",
+        "path": "cf-demand-forecasting-to-optimize-artist-scheduling-for-peak",
+        "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+        "kind": "route",
+        "label": "demand forecasting to optimize artist scheduling for peak"
+      }
+    ],
+    "owner": "AITattooBodyArtStudioManager",
+    "alternatives": [],
+    "path": "/features/demand-forecasting-to-optimize-artist-scheduling-for-peak",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "social-proof-automation-generating-before-after-post-sequences",
+    "title": "social proof automation generating before after post sequences",
+    "group": "Tattoo body art studio manager",
+    "description": "Organize social proof automation generating before after post sequences and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AITattooBodyArtStudioManager",
+        "path": "cf-social-proof-automation-generating-before-after-post-sequences",
+        "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+        "kind": "route",
+        "label": "social proof automation generating before after post sequences"
+      }
+    ],
+    "owner": "AITattooBodyArtStudioManager",
+    "alternatives": [],
+    "path": "/features/social-proof-automation-generating-before-after-post-sequences",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "osha-bloodborne-pathogen-compliance-dashboard-with-audit-ready-logs",
+    "title": "osha bloodborne pathogen compliance dashboard with audit ready logs",
+    "group": "Tattoo body art studio manager",
+    "description": "Organize osha bloodborne pathogen compliance dashboard with audit ready logs and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AITattooBodyArtStudioManager",
+        "path": "cf-osha-bloodborne-pathogen-compliance-dashboard-with-audit-ready-logs",
+        "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+        "kind": "route",
+        "label": "osha bloodborne pathogen compliance dashboard with audit ready logs"
+      }
+    ],
+    "owner": "AITattooBodyArtStudioManager",
+    "alternatives": [],
+    "path": "/features/osha-bloodborne-pathogen-compliance-dashboard-with-audit-ready-logs",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "ai-driven-portfolio-style-classification",
+    "title": "ai driven portfolio style classification",
+    "group": "Tattoo body art studio manager",
+    "description": "Organize ai driven portfolio style classification and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AITattooBodyArtStudioManager",
+        "path": "gap-no-ai-driven-portfolio-style-classification",
+        "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+        "kind": "route",
+        "label": "ai driven portfolio style classification"
+      }
+    ],
+    "owner": "AITattooBodyArtStudioManager",
+    "alternatives": [],
+    "path": "/features/ai-driven-portfolio-style-classification",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "demand-forecasting-for-peak-hours",
+    "title": "demand forecasting for peak hours",
+    "group": "Tattoo body art studio manager",
+    "description": "Organize demand forecasting for peak hours and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AITattooBodyArtStudioManager",
+        "path": "gap-no-demand-forecasting-for-peak-hours",
+        "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+        "kind": "route",
+        "label": "demand forecasting for peak hours"
+      }
+    ],
+    "owner": "AITattooBodyArtStudioManager",
+    "alternatives": [],
+    "path": "/features/demand-forecasting-for-peak-hours",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "ai-infection-risk-scoring",
+    "title": "ai infection risk scoring",
+    "group": "Tattoo body art studio manager",
+    "description": "Organize ai infection risk scoring and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AITattooBodyArtStudioManager",
+        "path": "gap-no-ai-infection-risk-scoring",
+        "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+        "kind": "route",
+        "label": "ai infection risk scoring"
+      }
+    ],
+    "owner": "AITattooBodyArtStudioManager",
+    "alternatives": [],
+    "path": "/features/ai-infection-risk-scoring",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "integrations-with-payment-processing-square-stripe",
+    "title": "integrations with payment processing square stripe",
+    "group": "Tattoo body art studio manager",
+    "description": "Prepare integrations with payment processing square stripe requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AITattooBodyArtStudioManager",
+        "path": "gap-no-integrations-with-payment-processing-square-stripe",
+        "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+        "kind": "route",
+        "label": "integrations with payment processing square stripe"
+      }
+    ],
+    "owner": "AITattooBodyArtStudioManager",
+    "alternatives": [],
+    "path": "/features/integrations-with-payment-processing-square-stripe",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "formal-health-safety-compliance-tracking-module-blood-borne",
+    "title": "formal health safety compliance tracking module blood borne",
+    "group": "Tattoo body art studio manager",
+    "description": "Organize formal health safety compliance tracking module blood borne and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AITattooBodyArtStudioManager",
+        "path": "gap-no-formal-health-safety-compliance-tracking-module-blood-borne",
+        "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+        "kind": "route",
+        "label": "formal health safety compliance tracking module blood borne"
+      }
+    ],
+    "owner": "AITattooBodyArtStudioManager",
+    "alternatives": [],
+    "path": "/features/formal-health-safety-compliance-tracking-module-blood-borne",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "portfolio-gallery-storefront-for-public-viewing",
+    "title": "portfolio gallery storefront for public viewing",
+    "group": "Tattoo body art studio manager",
+    "description": "Organize portfolio gallery storefront for public viewing and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AITattooBodyArtStudioManager",
+        "path": "gap-no-portfolio-gallery-storefront-for-public-viewing",
+        "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+        "kind": "route",
+        "label": "portfolio gallery storefront for public viewing"
+      }
+    ],
+    "owner": "AITattooBodyArtStudioManager",
+    "alternatives": [],
+    "path": "/features/portfolio-gallery-storefront-for-public-viewing",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "multi-location-multi-studio-support",
+    "title": "multi location multi studio support",
+    "group": "Tattoo body art studio manager",
+    "description": "Organize multi location multi studio support and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AITattooBodyArtStudioManager",
+        "path": "gap-no-multi-location-multi-studio-support",
+        "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+        "kind": "route",
+        "label": "multi location multi studio support"
+      }
+    ],
+    "owner": "AITattooBodyArtStudioManager",
+    "alternatives": [],
+    "path": "/features/multi-location-multi-studio-support",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "webhooks-or-notifications",
+    "title": "webhooks or notifications",
+    "group": "Tattoo body art studio manager",
+    "description": "Prepare webhooks or notifications requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AITattooBodyArtStudioManager",
+        "path": "gap-no-webhooks-or-notifications",
+        "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+        "kind": "route",
+        "label": "webhooks or notifications"
+      }
+    ],
+    "owner": "AITattooBodyArtStudioManager",
+    "alternatives": [],
+    "path": "/features/webhooks-or-notifications",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "sms-email-reminder-infrastructure",
+    "title": "sms email reminder infrastructure",
+    "group": "Tattoo body art studio manager",
+    "description": "Organize sms email reminder infrastructure and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AITattooBodyArtStudioManager",
+        "path": "gap-no-sms-email-reminder-infrastructure",
+        "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+        "kind": "route",
+        "label": "sms email reminder infrastructure"
+      }
+    ],
+    "owner": "AITattooBodyArtStudioManager",
+    "alternatives": [],
+    "path": "/features/sms-email-reminder-infrastructure",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "chat",
+    "title": "AI Chat Assistant",
+    "group": "Beautyhqio",
+    "description": "Ask anything about your salon - scheduling, analytics, marketing strategies",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "beautyhqio",
+        "path": "chat",
+        "source": "/Volumes/external/projects/beautyhqio/src/app/(dashboard)/ai/page.tsx",
+        "kind": "definition",
+        "label": "AI Chat Assistant"
+      }
+    ],
+    "owner": "beautyhqio",
+    "alternatives": [],
+    "path": "/features/chat",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "scheduling",
+    "title": "Smart Scheduling",
+    "group": "Beautyhqio",
+    "description": "AI-powered appointment optimization and staff matching",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "beautyhqio",
+        "path": "scheduling",
+        "source": "/Volumes/external/projects/beautyhqio/src/app/(dashboard)/ai/page.tsx",
+        "kind": "definition",
+        "label": "Smart Scheduling"
+      }
+    ],
+    "owner": "beautyhqio",
+    "alternatives": [],
+    "path": "/features/scheduling",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "client-insights",
+    "title": "Client Insights",
+    "group": "Beautyhqio",
+    "description": "Deep analysis of client behavior, preferences, and retention strategies",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "beautyhqio",
+        "path": "client-insights",
+        "source": "/Volumes/external/projects/beautyhqio/src/app/(dashboard)/ai/page.tsx",
+        "kind": "definition",
+        "label": "Client Insights"
+      },
+      {
+        "module": "Boulevard",
+        "path": "client-insights",
+        "source": "/Volumes/external/projects/Boulevard/src/pages/AITools.tsx",
+        "kind": "definition",
+        "label": "Client Insights"
+      }
+    ],
+    "owner": "beautyhqio",
+    "alternatives": [],
+    "path": "/features/client-insights",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "revenue",
+    "title": "Revenue Predictor",
+    "group": "Beautyhqio",
+    "description": "AI-powered revenue forecasting and growth opportunities",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "beautyhqio",
+        "path": "revenue",
+        "source": "/Volumes/external/projects/beautyhqio/src/app/(dashboard)/ai/page.tsx",
+        "kind": "definition",
+        "label": "Revenue Predictor"
+      }
+    ],
+    "owner": "beautyhqio",
+    "alternatives": [],
+    "path": "/features/revenue",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "no-show",
+    "title": "No-Show Prediction",
+    "group": "Beautyhqio",
+    "description": "Predict appointment no-shows and get prevention recommendations",
+    "fields": [
+      {
+        "name": "appointment_id",
+        "label": "Appointment ID",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "beautyhqio",
+        "path": "no-show",
+        "source": "/Volumes/external/projects/beautyhqio/src/app/(dashboard)/ai/page.tsx",
+        "kind": "definition",
+        "label": "No-Show Prediction"
+      },
+      {
+        "module": "Boulevard",
+        "path": "no-show-predict",
+        "source": "/Volumes/external/projects/Boulevard/src/pages/AITools.tsx",
+        "kind": "definition",
+        "label": "No-Show Prediction"
+      }
+    ],
+    "owner": "beautyhqio",
+    "alternatives": [],
+    "path": "/features/no-show",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "style",
+    "title": "Style Recommendations",
+    "group": "Beautyhqio",
+    "description": "AI-powered personalized style and service recommendations",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "beautyhqio",
+        "path": "style",
+        "source": "/Volumes/external/projects/beautyhqio/src/app/(dashboard)/ai/page.tsx",
+        "kind": "definition",
+        "label": "Style Recommendations"
+      }
+    ],
+    "owner": "beautyhqio",
+    "alternatives": [],
+    "path": "/features/style",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "voice",
+    "title": "Voice Receptionist",
+    "group": "Beautyhqio",
+    "description": "AI-powered voice assistant for handling calls",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "beautyhqio",
+        "path": "voice",
+        "source": "/Volumes/external/projects/beautyhqio/src/app/(dashboard)/ai/page.tsx",
+        "kind": "definition",
+        "label": "Voice Receptionist"
+      }
+    ],
+    "owner": "beautyhqio",
+    "alternatives": [],
+    "path": "/features/voice",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "social-media",
+    "title": "Social Media Content",
+    "group": "Beautyhqio",
+    "description": "Generate engaging posts for Instagram, Facebook & more",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "beautyhqio",
+        "path": "social-media",
+        "source": "/Volumes/external/projects/beautyhqio/src/app/(dashboard)/ai/page.tsx",
+        "kind": "definition",
+        "label": "Social Media Content"
+      }
+    ],
+    "owner": "beautyhqio",
+    "alternatives": [],
+    "path": "/features/social-media",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "upsell",
+    "title": "Upsell Suggestions",
+    "group": "Beautyhqio",
+    "description": "AI-powered personalized upsell and cross-sell recommendations",
+    "fields": [
+      {
+        "name": "appointment_id",
+        "label": "Appointment ID",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "beautyhqio",
+        "path": "upsell",
+        "source": "/Volumes/external/projects/beautyhqio/src/app/(dashboard)/ai/page.tsx",
+        "kind": "definition",
+        "label": "Upsell Suggestions"
+      },
+      {
+        "module": "Boulevard",
+        "path": "upsell-suggestions",
+        "source": "/Volumes/external/projects/Boulevard/src/pages/AITools.tsx",
+        "kind": "definition",
+        "label": "Upsell Suggestions"
+      }
+    ],
+    "owner": "beautyhqio",
+    "alternatives": [],
+    "path": "/features/upsell",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "reactivation",
+    "title": "Client Reactivation",
+    "group": "Beautyhqio",
+    "description": "Generate win-back campaigns for inactive clients",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "beautyhqio",
+        "path": "reactivation",
+        "source": "/Volumes/external/projects/beautyhqio/src/app/(dashboard)/ai/page.tsx",
+        "kind": "definition",
+        "label": "Client Reactivation"
+      }
+    ],
+    "owner": "beautyhqio",
+    "alternatives": [],
+    "path": "/features/reactivation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "sentiment",
+    "title": "Sentiment Analysis",
+    "group": "Beautyhqio",
+    "description": "Analyze customer reviews and feedback sentiment",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "beautyhqio",
+        "path": "sentiment",
+        "source": "/Volumes/external/projects/beautyhqio/src/app/(dashboard)/ai/page.tsx",
+        "kind": "definition",
+        "label": "Sentiment Analysis"
+      }
+    ],
+    "owner": "beautyhqio",
+    "alternatives": [],
+    "path": "/features/sentiment",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "symptom-checker",
+    "title": "AI Symptom Checker",
+    "group": "Beautyhqio",
+    "description": "Analyze wellness symptoms and get personalized recommendations for skin, hair, and body concerns",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "beautyhqio",
+        "path": "symptom-checker",
+        "source": "/Volumes/external/projects/beautyhqio/src/app/(dashboard)/ai/page.tsx",
+        "kind": "definition",
+        "label": "AI Symptom Checker"
+      }
+    ],
+    "owner": "beautyhqio",
+    "alternatives": [],
+    "path": "/features/symptom-checker",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "mental-health",
+    "title": "AI Mental Health Companion",
+    "group": "Beautyhqio",
+    "description": "Supportive wellness companion for stress management, self-care, and emotional wellbeing",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "beautyhqio",
+        "path": "mental-health",
+        "source": "/Volumes/external/projects/beautyhqio/src/app/(dashboard)/ai/page.tsx",
+        "kind": "definition",
+        "label": "AI Mental Health Companion"
+      }
+    ],
+    "owner": "beautyhqio",
+    "alternatives": [],
+    "path": "/features/mental-health",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "skin-analyzer",
+    "title": "AI Skin Analyzer",
+    "group": "Beautyhqio",
+    "description": "Comprehensive skin analysis with personalized skincare routines and product recommendations",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "beautyhqio",
+        "path": "skin-analyzer",
+        "source": "/Volumes/external/projects/beautyhqio/src/app/(dashboard)/ai/page.tsx",
+        "kind": "definition",
+        "label": "AI Skin Analyzer"
+      }
+    ],
+    "owner": "beautyhqio",
+    "alternatives": [],
+    "path": "/features/skin-analyzer",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "sleep-coach",
+    "title": "AI Sleep Coach",
+    "group": "Beautyhqio",
+    "description": "Track and improve your beauty sleep with personalized coaching and insights",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "beautyhqio",
+        "path": "sleep-coach",
+        "source": "/Volumes/external/projects/beautyhqio/src/app/(dashboard)/ai/page.tsx",
+        "kind": "definition",
+        "label": "AI Sleep Coach"
+      }
+    ],
+    "owner": "beautyhqio",
+    "alternatives": [],
+    "path": "/features/sleep-coach",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "posture-corrector",
+    "title": "AI Posture Corrector",
+    "group": "Beautyhqio",
+    "description": "Assess your posture and get exercises, ergonomic tips, and improvement plans",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "beautyhqio",
+        "path": "posture-corrector",
+        "source": "/Volumes/external/projects/beautyhqio/src/app/(dashboard)/ai/page.tsx",
+        "kind": "definition",
+        "label": "AI Posture Corrector"
+      }
+    ],
+    "owner": "beautyhqio",
+    "alternatives": [],
+    "path": "/features/posture-corrector",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "product-recommender",
+    "title": "AI Product Recommender",
+    "group": "Beautyhqio",
+    "description": "Get personalized beauty and wellness product recommendations based on your unique profile",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "beautyhqio",
+        "path": "product-recommender",
+        "source": "/Volumes/external/projects/beautyhqio/src/app/(dashboard)/ai/page.tsx",
+        "kind": "definition",
+        "label": "AI Product Recommender"
+      }
+    ],
+    "owner": "beautyhqio",
+    "alternatives": [],
+    "path": "/features/product-recommender",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "loyalty-optimizer",
+    "title": "AI Loyalty Program Manager",
+    "group": "Beautyhqio",
+    "description": "Optimize your loyalty program with AI-powered insights and recommendations",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "beautyhqio",
+        "path": "loyalty-optimizer",
+        "source": "/Volumes/external/projects/beautyhqio/src/app/(dashboard)/ai/page.tsx",
+        "kind": "definition",
+        "label": "AI Loyalty Program Manager"
+      }
+    ],
+    "owner": "beautyhqio",
+    "alternatives": [],
+    "path": "/features/loyalty-optimizer",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "transforming-beauty-industry",
+    "title": "5 Ways AI is Transforming the Beauty Industry",
+    "group": "Beautyhqio",
+    "description": "Organize 5 ways ai is transforming the beauty industry and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "beautyhqio",
+        "path": "ai-transforming-beauty-industry",
+        "source": "/Volumes/external/projects/beautyhqio/src/app/blog/page.tsx",
+        "kind": "definition",
+        "label": "5 Ways AI is Transforming the Beauty Industry"
+      }
+    ],
+    "owner": "beautyhqio",
+    "alternatives": [],
+    "path": "/features/transforming-beauty-industry",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "cash-drawer",
+    "title": "Cash drawer",
+    "group": "Beautyhqio",
+    "description": "Organize cash drawer and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "beautyhqio",
+        "path": "/cash-drawer",
+        "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+        "kind": "definition",
+        "label": "Cash drawer"
+      }
+    ],
+    "owner": "beautyhqio",
+    "alternatives": [],
+    "path": "/features/cash-drawer",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "purchasing",
+    "title": "Purchasing",
+    "group": "Beautyhqio",
+    "description": "Organize purchasing and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "beautyhqio",
+        "path": "/purchasing",
+        "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+        "kind": "definition",
+        "label": "Purchasing"
+      }
+    ],
+    "owner": "beautyhqio",
+    "alternatives": [],
+    "path": "/features/purchasing",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "workspace",
+    "title": "AI Review & Knowledge",
+    "group": "Beautyhqio",
+    "description": "Organize ai review & knowledge and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "beautyhqio",
+        "path": "/ai/workspace",
+        "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+        "kind": "definition",
+        "label": "AI Review & Knowledge"
+      }
+    ],
+    "owner": "beautyhqio",
+    "alternatives": [],
+    "path": "/features/workspace",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "admin",
+    "title": "Platform Overview",
+    "group": "Beautyhqio",
+    "description": "Organize platform overview and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "beautyhqio",
+        "path": "/admin",
+        "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+        "kind": "definition",
+        "label": "Platform Overview"
+      }
+    ],
+    "owner": "beautyhqio",
+    "alternatives": [],
+    "path": "/features/admin",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "admin-salons",
+    "title": "All Salons",
+    "group": "Beautyhqio",
+    "description": "Organize all salons and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "beautyhqio",
+        "path": "/admin/salons",
+        "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+        "kind": "definition",
+        "label": "All Salons"
+      }
+    ],
+    "owner": "beautyhqio",
+    "alternatives": [],
+    "path": "/features/admin-salons",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "admin-revenue",
+    "title": "Platform Revenue",
+    "group": "Beautyhqio",
+    "description": "Organize platform revenue and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "beautyhqio",
+        "path": "/admin/revenue",
+        "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+        "kind": "definition",
+        "label": "Platform Revenue"
+      }
+    ],
+    "owner": "beautyhqio",
+    "alternatives": [],
+    "path": "/features/admin-revenue",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "admin-subscriptions",
+    "title": "Subscriptions",
+    "group": "Beautyhqio",
+    "description": "Organize subscriptions and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "beautyhqio",
+        "path": "/admin/subscriptions",
+        "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+        "kind": "definition",
+        "label": "Subscriptions"
+      }
+    ],
+    "owner": "beautyhqio",
+    "alternatives": [],
+    "path": "/features/admin-subscriptions",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "treatment-room-turnover",
+    "title": "Room Turnover",
+    "group": "Beautyhqio",
+    "description": "Organize room turnover and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "beautyhqio",
+        "path": "/treatment-room-turnover",
+        "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+        "kind": "definition",
+        "label": "Room Turnover"
+      }
+    ],
+    "owner": "beautyhqio",
+    "alternatives": [],
+    "path": "/features/treatment-room-turnover",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "pos",
+    "title": "Point of Sale",
+    "group": "Beautyhqio",
+    "description": "Organize point of sale and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "beautyhqio",
+        "path": "/pos",
+        "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+        "kind": "definition",
+        "label": "Point of Sale"
+      }
+    ],
+    "owner": "beautyhqio",
+    "alternatives": [],
+    "path": "/features/pos",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "staff",
+    "title": "Staff",
+    "group": "Beautyhqio",
+    "description": "Organize staff and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "beautyhqio",
+        "path": "/staff",
+        "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+        "kind": "definition",
+        "label": "Staff"
+      },
+      {
+        "module": "Boulevard",
+        "path": "/staff",
+        "source": "/Volumes/external/projects/Boulevard/src/components/Layout.tsx",
+        "kind": "definition",
+        "label": "Staff"
+      },
+      {
+        "module": "hairSalon",
+        "path": "/staff",
+        "source": "/Volumes/external/projects/hairSalon/src/app/(dashboard)/dashboard/page.tsx",
+        "kind": "definition",
+        "label": "Staff"
+      }
+    ],
+    "owner": "beautyhqio",
+    "alternatives": [],
+    "path": "/features/staff",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "gift-cards",
+    "title": "Gift Cards",
+    "group": "Beautyhqio",
+    "description": "Organize gift cards and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "beautyhqio",
+        "path": "/gift-cards",
+        "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+        "kind": "definition",
+        "label": "Gift Cards"
+      },
+      {
+        "module": "hairSalon",
+        "path": "/gift-cards",
+        "source": "/Volumes/external/projects/hairSalon/src/app/(dashboard)/dashboard/page.tsx",
+        "kind": "definition",
+        "label": "Gift Cards"
+      }
+    ],
+    "owner": "beautyhqio",
+    "alternatives": [],
+    "path": "/features/gift-cards",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "marketing",
+    "title": "Marketing",
+    "group": "Beautyhqio",
+    "description": "Organize marketing and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "beautyhqio",
+        "path": "/marketing",
+        "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+        "kind": "definition",
+        "label": "Marketing"
+      }
+    ],
+    "owner": "beautyhqio",
+    "alternatives": [],
+    "path": "/features/marketing",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "reports-leads",
+    "title": "Marketplace Leads",
+    "group": "Beautyhqio",
+    "description": "Organize marketplace leads and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "beautyhqio",
+        "path": "/reports/leads",
+        "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+        "kind": "definition",
+        "label": "Marketplace Leads"
+      }
+    ],
+    "owner": "beautyhqio",
+    "alternatives": [],
+    "path": "/features/reports-leads",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "crm",
+    "title": "Sales CRM",
+    "group": "Beautyhqio",
+    "description": "Organize sales crm and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "beautyhqio",
+        "path": "/crm",
+        "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+        "kind": "definition",
+        "label": "Sales CRM"
+      }
+    ],
+    "owner": "beautyhqio",
+    "alternatives": [],
+    "path": "/features/crm",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "marketplace",
+    "title": "Marketplace",
+    "group": "Beautyhqio",
+    "description": "Organize marketplace and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "beautyhqio",
+        "path": "/marketplace",
+        "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+        "kind": "definition",
+        "label": "Marketplace"
+      }
+    ],
+    "owner": "beautyhqio",
+    "alternatives": [],
+    "path": "/features/marketplace",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "subscription",
+    "title": "Subscription",
+    "group": "Beautyhqio",
+    "description": "Organize subscription and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "beautyhqio",
+        "path": "/subscription",
+        "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+        "kind": "definition",
+        "label": "Subscription"
+      }
+    ],
+    "owner": "beautyhqio",
+    "alternatives": [],
+    "path": "/features/subscription",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "staff-schedule",
+    "title": "My Schedule",
+    "group": "Beautyhqio",
+    "description": "Organize my schedule and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "beautyhqio",
+        "path": "/staff/schedule",
+        "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+        "kind": "definition",
+        "label": "My Schedule"
+      }
+    ],
+    "owner": "beautyhqio",
+    "alternatives": [],
+    "path": "/features/staff-schedule",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "staff-clients",
+    "title": "My Clients",
+    "group": "Beautyhqio",
+    "description": "Organize my clients and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "beautyhqio",
+        "path": "/staff/clients",
+        "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+        "kind": "definition",
+        "label": "My Clients"
+      }
+    ],
+    "owner": "beautyhqio",
+    "alternatives": [],
+    "path": "/features/staff-clients",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "staff-earnings",
+    "title": "My Earnings",
+    "group": "Beautyhqio",
+    "description": "Organize my earnings and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "beautyhqio",
+        "path": "/staff/earnings",
+        "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+        "kind": "definition",
+        "label": "My Earnings"
+      }
+    ],
+    "owner": "beautyhqio",
+    "alternatives": [],
+    "path": "/features/staff-earnings",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "staff-settings",
+    "title": "My Settings",
+    "group": "Beautyhqio",
+    "description": "Organize my settings and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "beautyhqio",
+        "path": "/staff/settings",
+        "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+        "kind": "definition",
+        "label": "My Settings"
+      }
+    ],
+    "owner": "beautyhqio",
+    "alternatives": [],
+    "path": "/features/staff-settings",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "client-book",
+    "title": "Book Appointment",
+    "group": "Beautyhqio",
+    "description": "Organize book appointment and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "beautyhqio",
+        "path": "/client/book",
+        "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+        "kind": "definition",
+        "label": "Book Appointment"
+      }
+    ],
+    "owner": "beautyhqio",
+    "alternatives": [],
+    "path": "/features/client-book",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "client-appointments",
+    "title": "My Appointments",
+    "group": "Beautyhqio",
+    "description": "Organize my appointments and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "beautyhqio",
+        "path": "/client/appointments",
+        "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+        "kind": "definition",
+        "label": "My Appointments"
+      }
+    ],
+    "owner": "beautyhqio",
+    "alternatives": [],
+    "path": "/features/client-appointments",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "client-profile",
+    "title": "My Profile",
+    "group": "Beautyhqio",
+    "description": "Organize my profile and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "beautyhqio",
+        "path": "/client/profile",
+        "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+        "kind": "definition",
+        "label": "My Profile"
+      }
+    ],
+    "owner": "beautyhqio",
+    "alternatives": [],
+    "path": "/features/client-profile",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "client-payments",
+    "title": "Payment Methods",
+    "group": "Beautyhqio",
+    "description": "Organize payment methods and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "beautyhqio",
+        "path": "/client/payments",
+        "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+        "kind": "definition",
+        "label": "Payment Methods"
+      }
+    ],
+    "owner": "beautyhqio",
+    "alternatives": [],
+    "path": "/features/client-payments",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "client-rewards",
+    "title": "My Rewards",
+    "group": "Beautyhqio",
+    "description": "Organize my rewards and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "beautyhqio",
+        "path": "/client/rewards",
+        "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+        "kind": "definition",
+        "label": "My Rewards"
+      }
+    ],
+    "owner": "beautyhqio",
+    "alternatives": [],
+    "path": "/features/client-rewards",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "blog",
+    "title": "Blog",
+    "group": "Beautyhqio",
+    "description": "Organize blog and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "beautyhqio",
+        "path": "blog",
+        "source": "/Volumes/external/projects/beautyhqio",
+        "kind": "route",
+        "label": "Blog"
+      }
+    ],
+    "owner": "beautyhqio",
+    "alternatives": [],
+    "path": "/features/blog",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "payments",
+    "title": "Payments",
+    "group": "Boulevard",
+    "description": "Organize payments and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "Boulevard",
+        "path": "/payments",
+        "source": "/Volumes/external/projects/Boulevard/src/components/Layout.tsx",
+        "kind": "definition",
+        "label": "Payments"
+      },
+      {
+        "module": "hairSalon",
+        "path": "/payments",
+        "source": "/Volumes/external/projects/hairSalon/src/app/(dashboard)/dashboard/page.tsx",
+        "kind": "definition",
+        "label": "Payments"
+      }
+    ],
+    "owner": "Boulevard",
+    "alternatives": [],
+    "path": "/features/payments",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "booking-assistant",
+    "title": "Booking Assistant",
+    "group": "Boulevard",
+    "description": "Chat-style booking concierge using your live service catalog.",
+    "fields": [
+      {
+        "name": "message",
+        "label": "Message",
+        "type": "textarea"
+      },
+      {
+        "name": "context",
+        "label": "Context (optional, JSON)",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "Boulevard",
+        "path": "booking-assistant",
+        "source": "/Volumes/external/projects/Boulevard/src/pages/AITools.tsx",
+        "kind": "definition",
+        "label": "Booking Assistant"
+      }
+    ],
+    "owner": "Boulevard",
+    "alternatives": [],
+    "path": "/features/booking-assistant",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "staff-match",
+    "title": "Staff Match",
+    "group": "Boulevard",
+    "description": "Rank staff for a requested service + client.",
+    "fields": [
+      {
+        "name": "service_id",
+        "label": "Service ID",
+        "type": "text"
+      },
+      {
+        "name": "preferences",
+        "label": "Preferences (JSON)",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "Boulevard",
+        "path": "staff-match",
+        "source": "/Volumes/external/projects/Boulevard/src/pages/AITools.tsx",
+        "kind": "definition",
+        "label": "Staff Match"
+      }
+    ],
+    "owner": "Boulevard",
+    "alternatives": [],
+    "path": "/features/staff-match",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "service-recommend",
+    "title": "Service Recommendations",
+    "group": "Boulevard",
+    "description": "Upsell-aware service suggestions for a client.",
+    "fields": [
+      {
+        "name": "occasion",
+        "label": "Occasion",
+        "type": "text"
+      },
+      {
+        "name": "budget",
+        "label": "Budget",
+        "type": "number"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "Boulevard",
+        "path": "service-recommend",
+        "source": "/Volumes/external/projects/Boulevard/src/pages/AITools.tsx",
+        "kind": "definition",
+        "label": "Service Recommendations"
+      }
+    ],
+    "owner": "Boulevard",
+    "alternatives": [],
+    "path": "/features/service-recommend",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "schedule-optimizer",
+    "title": "Schedule Optimizer",
+    "group": "Boulevard",
+    "description": "Find gaps / overbookings for a day.",
+    "fields": [
+      {
+        "name": "date",
+        "label": "Date (YYYY-MM-DD)",
+        "type": "date"
+      },
+      {
+        "name": "staff_id",
+        "label": "Staff ID (optional)",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "Boulevard",
+        "path": "schedule-optimizer",
+        "source": "/Volumes/external/projects/Boulevard/src/pages/AITools.tsx",
+        "kind": "definition",
+        "label": "Schedule Optimizer"
+      }
+    ],
+    "owner": "Boulevard",
+    "alternatives": [],
+    "path": "/features/schedule-optimizer",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "review-response",
+    "title": "Review Response",
+    "group": "Boulevard",
+    "description": "Draft a public response to a review.",
+    "fields": [
+      {
+        "name": "review_text",
+        "label": "Review text",
+        "type": "textarea"
+      },
+      {
+        "name": "rating",
+        "label": "Rating (1-5)",
+        "type": "number"
+      },
+      {
+        "name": "platform",
+        "label": "Platform",
+        "type": "text"
+      },
+      {
+        "name": "tone",
+        "label": "Tone",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "Boulevard",
+        "path": "review-response",
+        "source": "/Volumes/external/projects/Boulevard/src/pages/AITools.tsx",
+        "kind": "definition",
+        "label": "Review Response"
+      }
+    ],
+    "owner": "Boulevard",
+    "alternatives": [],
+    "path": "/features/review-response",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "reactivation-message",
+    "title": "Reactivation Message",
+    "group": "Boulevard",
+    "description": "SMS/email win-back for a lapsed client.",
+    "fields": [
+      {
+        "name": "channel",
+        "label": "Channel (sms or email)",
+        "type": "text"
+      },
+      {
+        "name": "offer",
+        "label": "Offer",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "Boulevard",
+        "path": "reactivation-message",
+        "source": "/Volumes/external/projects/Boulevard/src/pages/AITools.tsx",
+        "kind": "definition",
+        "label": "Reactivation Message"
+      }
+    ],
+    "owner": "Boulevard",
+    "alternatives": [],
+    "path": "/features/reactivation-message",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "revenue-forecast",
+    "title": "Revenue Forecast",
+    "group": "Boulevard",
+    "description": "Narrative forecast over a date range.",
+    "fields": [
+      {
+        "name": "from",
+        "label": "From (YYYY-MM-DD)",
+        "type": "date"
+      },
+      {
+        "name": "to",
+        "label": "To (YYYY-MM-DD)",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "Boulevard",
+        "path": "revenue-forecast",
+        "source": "/Volumes/external/projects/Boulevard/src/pages/AITools.tsx",
+        "kind": "definition",
+        "label": "Revenue Forecast"
+      }
+    ],
+    "owner": "Boulevard",
+    "alternatives": [],
+    "path": "/features/revenue-forecast",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "waitlist-intelligence",
+    "title": "Waitlist Intelligence",
+    "group": "Boulevard",
+    "description": "Rank waitlist clients for a freed slot.",
+    "fields": [
+      {
+        "name": "slot_start",
+        "label": "Slot start (ISO datetime)",
+        "type": "date"
+      },
+      {
+        "name": "service_id",
+        "label": "Service ID",
+        "type": "text"
+      },
+      {
+        "name": "staff_id",
+        "label": "Staff ID",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "Boulevard",
+        "path": "waitlist-intelligence",
+        "source": "/Volumes/external/projects/Boulevard/src/pages/AITools.tsx",
+        "kind": "definition",
+        "label": "Waitlist Intelligence"
+      }
+    ],
+    "owner": "Boulevard",
+    "alternatives": [],
+    "path": "/features/waitlist-intelligence",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "kiosk-checkin",
+    "title": "Kiosk checkin",
+    "group": "Boulevard",
+    "description": "Organize kiosk checkin and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "Boulevard",
+        "path": "kiosk-checkin",
+        "source": "/Volumes/external/projects/Boulevard",
+        "kind": "route",
+        "label": "Kiosk checkin"
+      }
+    ],
+    "owner": "Boulevard",
+    "alternatives": [],
+    "path": "/features/kiosk-checkin",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "lapsed-ad-spend",
+    "title": "Lapsed ad spend",
+    "group": "Boulevard",
+    "description": "Organize lapsed ad spend and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "Boulevard",
+        "path": "lapsed-ad-spend",
+        "source": "/Volumes/external/projects/Boulevard",
+        "kind": "route",
+        "label": "Lapsed ad spend"
+      }
+    ],
+    "owner": "Boulevard",
+    "alternatives": [],
+    "path": "/features/lapsed-ad-spend",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "therapist-compatibility",
+    "title": "Therapist compatibility",
+    "group": "Boulevard",
+    "description": "Organize therapist compatibility and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "Boulevard",
+        "path": "therapist-compatibility",
+        "source": "/Volumes/external/projects/Boulevard",
+        "kind": "route",
+        "label": "Therapist compatibility"
+      }
+    ],
+    "owner": "Boulevard",
+    "alternatives": [],
+    "path": "/features/therapist-compatibility",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "pos-hardware",
+    "title": "Pos hardware",
+    "group": "Boulevard",
+    "description": "Organize pos hardware and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "Boulevard",
+        "path": "pos-hardware",
+        "source": "/Volumes/external/projects/Boulevard",
+        "kind": "route",
+        "label": "Pos hardware"
+      }
+    ],
+    "owner": "Boulevard",
+    "alternatives": [],
+    "path": "/features/pos-hardware",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "packages",
+    "title": "Packages",
+    "group": "Hair salon",
+    "description": "Service packages",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "hairSalon",
+        "path": "/packages",
+        "source": "/Volumes/external/projects/hairSalon/src/app/(dashboard)/dashboard/page.tsx",
+        "kind": "definition",
+        "label": "Packages"
+      }
+    ],
+    "owner": "hairSalon",
+    "alternatives": [],
+    "path": "/features/packages",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "campaigns",
+    "title": "Campaigns",
+    "group": "Hair salon",
+    "description": "Marketing campaigns",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "hairSalon",
+        "path": "/campaigns",
+        "source": "/Volumes/external/projects/hairSalon/src/app/(dashboard)/dashboard/page.tsx",
+        "kind": "definition",
+        "label": "Campaigns"
+      }
+    ],
+    "owner": "hairSalon",
+    "alternatives": [],
+    "path": "/features/campaigns",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "retail",
+    "title": "Retail",
+    "group": "Hair salon",
+    "description": "Retail products",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "hairSalon",
+        "path": "/retail",
+        "source": "/Volumes/external/projects/hairSalon/src/app/(dashboard)/dashboard/page.tsx",
+        "kind": "definition",
+        "label": "Retail"
+      }
+    ],
+    "owner": "hairSalon",
+    "alternatives": [],
+    "path": "/features/retail",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "referrals",
+    "title": "Referrals",
+    "group": "Hair salon",
+    "description": "Referral tracking",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "hairSalon",
+        "path": "/referrals",
+        "source": "/Volumes/external/projects/hairSalon/src/app/(dashboard)/dashboard/page.tsx",
+        "kind": "definition",
+        "label": "Referrals"
+      }
+    ],
+    "owner": "hairSalon",
+    "alternatives": [],
+    "path": "/features/referrals",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "time-off",
+    "title": "Time Off",
+    "group": "Hair salon",
+    "description": "Time-off requests",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "hairSalon",
+        "path": "/time-off",
+        "source": "/Volumes/external/projects/hairSalon/src/app/(dashboard)/dashboard/page.tsx",
+        "kind": "definition",
+        "label": "Time Off"
+      }
+    ],
+    "owner": "hairSalon",
+    "alternatives": [],
+    "path": "/features/time-off",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "gallery",
+    "title": "Gallery",
+    "group": "Hair salon",
+    "description": "Photo gallery",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "hairSalon",
+        "path": "/gallery",
+        "source": "/Volumes/external/projects/hairSalon/src/app/(dashboard)/dashboard/page.tsx",
+        "kind": "definition",
+        "label": "Gallery"
+      }
+    ],
+    "owner": "hairSalon",
+    "alternatives": [],
+    "path": "/features/gallery",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "locations",
+    "title": "Locations",
+    "group": "Hair salon",
+    "description": "Organize locations and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "hairSalon",
+        "path": "locations",
+        "source": "/Volumes/external/projects/hairSalon",
+        "kind": "route",
+        "label": "Locations"
+      }
+    ],
+    "owner": "hairSalon",
+    "alternatives": [],
+    "path": "/features/locations",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  }
+]

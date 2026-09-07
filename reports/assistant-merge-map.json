@@ -1,0 +1,454 @@
+[
+  {
+    "id": "ai-documents",
+    "title": "Writing, documents & knowledge",
+    "group": "AI assistants",
+    "path": "/assistants/ai-documents",
+    "featureIds": [
+      "notes",
+      "documents",
+      "templates",
+      "automated-reminder-smsemail-communication",
+      "message-drafter",
+      "sms-email-reminder-infrastructure",
+      "workspace"
+    ],
+    "ai": true,
+    "representativeId": "notes",
+    "description": "One assistant for 7 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "notes",
+        "title": "Notes",
+        "originalPath": "/features/notes"
+      },
+      {
+        "id": "documents",
+        "title": "Documents",
+        "originalPath": "/features/documents"
+      },
+      {
+        "id": "templates",
+        "title": "Templates",
+        "originalPath": "/features/templates"
+      },
+      {
+        "id": "automated-reminder-smsemail-communication",
+        "title": "automated reminder smsemail communication",
+        "originalPath": "/features/automated-reminder-smsemail-communication"
+      },
+      {
+        "id": "message-drafter",
+        "title": "Message Drafter",
+        "originalPath": "/features/message-drafter"
+      },
+      {
+        "id": "sms-email-reminder-infrastructure",
+        "title": "sms email reminder infrastructure",
+        "originalPath": "/features/sms-email-reminder-infrastructure"
+      },
+      {
+        "id": "workspace",
+        "title": "AI Review & Knowledge",
+        "originalPath": "/features/workspace"
+      }
+    ]
+  },
+  {
+    "id": "ai-insights",
+    "title": "Insights & recommendations",
+    "group": "AI assistants",
+    "path": "/assistants/ai-insights",
+    "featureIds": [
+      "stylist-match",
+      "duration-predict",
+      "product-recommend",
+      "service-demand-forecast",
+      "retail-recommend",
+      "servicedemandforecast-busytime-prediction",
+      "retailrecommend-product-to-add-to-service",
+      "noshow-prediction",
+      "demand-forecast",
+      "healing-outcome-prediction-by-artist-style-location-to",
+      "ai-driven-portfolio-style-classification",
+      "demand-forecasting-for-peak-hours",
+      "client-insights",
+      "no-show",
+      "style",
+      "skin-analyzer",
+      "product-recommender",
+      "service-recommend"
+    ],
+    "ai": true,
+    "representativeId": "stylist-match",
+    "description": "One assistant for 18 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "stylist-match",
+        "title": "AI Stylist Matching",
+        "originalPath": "/features/stylist-match"
+      },
+      {
+        "id": "duration-predict",
+        "title": "Service Duration Prediction",
+        "originalPath": "/features/duration-predict"
+      },
+      {
+        "id": "product-recommend",
+        "title": "Product Recommendation",
+        "originalPath": "/features/product-recommend"
+      },
+      {
+        "id": "service-demand-forecast",
+        "title": "Service demand forecast",
+        "originalPath": "/features/service-demand-forecast"
+      },
+      {
+        "id": "retail-recommend",
+        "title": "Retail recommend",
+        "originalPath": "/features/retail-recommend"
+      },
+      {
+        "id": "servicedemandforecast-busytime-prediction",
+        "title": "servicedemandforecast busytime prediction",
+        "originalPath": "/features/servicedemandforecast-busytime-prediction"
+      },
+      {
+        "id": "retailrecommend-product-to-add-to-service",
+        "title": "retailrecommend product to add to service",
+        "originalPath": "/features/retailrecommend-product-to-add-to-service"
+      },
+      {
+        "id": "noshow-prediction",
+        "title": "noshow prediction",
+        "originalPath": "/features/noshow-prediction"
+      },
+      {
+        "id": "demand-forecast",
+        "title": "Demand Forecast",
+        "originalPath": "/features/demand-forecast"
+      },
+      {
+        "id": "healing-outcome-prediction-by-artist-style-location-to",
+        "title": "healing outcome prediction by artist style location to",
+        "originalPath": "/features/healing-outcome-prediction-by-artist-style-location-to"
+      },
+      {
+        "id": "ai-driven-portfolio-style-classification",
+        "title": "ai driven portfolio style classification",
+        "originalPath": "/features/ai-driven-portfolio-style-classification"
+      },
+      {
+        "id": "demand-forecasting-for-peak-hours",
+        "title": "demand forecasting for peak hours",
+        "originalPath": "/features/demand-forecasting-for-peak-hours"
+      },
+      {
+        "id": "client-insights",
+        "title": "Client Insights",
+        "originalPath": "/features/client-insights"
+      },
+      {
+        "id": "no-show",
+        "title": "No-Show Prediction",
+        "originalPath": "/features/no-show"
+      },
+      {
+        "id": "style",
+        "title": "Style Recommendations",
+        "originalPath": "/features/style"
+      },
+      {
+        "id": "skin-analyzer",
+        "title": "AI Skin Analyzer",
+        "originalPath": "/features/skin-analyzer"
+      },
+      {
+        "id": "product-recommender",
+        "title": "AI Product Recommender",
+        "originalPath": "/features/product-recommender"
+      },
+      {
+        "id": "service-recommend",
+        "title": "Service Recommendations",
+        "originalPath": "/features/service-recommend"
+      }
+    ]
+  },
+  {
+    "id": "ai-planning",
+    "title": "Planning & scheduling",
+    "group": "AI assistants",
+    "path": "/assistants/ai-planning",
+    "featureIds": [
+      "waitlist-optimize",
+      "waitlist",
+      "stylist-workload-balance",
+      "appointment-conflict-detection",
+      "waitlist-fulfillment-ai",
+      "demand-forecasting-to-optimize-artist-scheduling-for-peak",
+      "scheduling",
+      "booking-assistant",
+      "staff-match",
+      "schedule-optimizer",
+      "waitlist-intelligence"
+    ],
+    "ai": true,
+    "representativeId": "waitlist-optimize",
+    "description": "One assistant for 11 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "waitlist-optimize",
+        "title": "Waitlist Optimizer",
+        "originalPath": "/features/waitlist-optimize"
+      },
+      {
+        "id": "waitlist",
+        "title": "Waitlist",
+        "originalPath": "/features/waitlist"
+      },
+      {
+        "id": "stylist-workload-balance",
+        "title": "Stylist workload balance",
+        "originalPath": "/features/stylist-workload-balance"
+      },
+      {
+        "id": "appointment-conflict-detection",
+        "title": "Appointment conflict detection",
+        "originalPath": "/features/appointment-conflict-detection"
+      },
+      {
+        "id": "waitlist-fulfillment-ai",
+        "title": "waitlist fulfillment ai",
+        "originalPath": "/features/waitlist-fulfillment-ai"
+      },
+      {
+        "id": "demand-forecasting-to-optimize-artist-scheduling-for-peak",
+        "title": "demand forecasting to optimize artist scheduling for peak",
+        "originalPath": "/features/demand-forecasting-to-optimize-artist-scheduling-for-peak"
+      },
+      {
+        "id": "scheduling",
+        "title": "Smart Scheduling",
+        "originalPath": "/features/scheduling"
+      },
+      {
+        "id": "booking-assistant",
+        "title": "Booking Assistant",
+        "originalPath": "/features/booking-assistant"
+      },
+      {
+        "id": "staff-match",
+        "title": "Staff Match",
+        "originalPath": "/features/staff-match"
+      },
+      {
+        "id": "schedule-optimizer",
+        "title": "Schedule Optimizer",
+        "originalPath": "/features/schedule-optimizer"
+      },
+      {
+        "id": "waitlist-intelligence",
+        "title": "Waitlist Intelligence",
+        "originalPath": "/features/waitlist-intelligence"
+      }
+    ]
+  },
+  {
+    "id": "ai-general",
+    "title": "General assistance",
+    "group": "AI assistants",
+    "path": "/assistants/ai-general",
+    "featureIds": [
+      "reviews",
+      "inventory",
+      "chat",
+      "voice",
+      "symptom-checker",
+      "mental-health",
+      "sleep-coach",
+      "posture-corrector",
+      "transforming-beauty-industry"
+    ],
+    "ai": true,
+    "representativeId": "reviews",
+    "description": "One assistant for 9 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "reviews",
+        "title": "Reviews",
+        "originalPath": "/features/reviews"
+      },
+      {
+        "id": "inventory",
+        "title": "Inventory",
+        "originalPath": "/features/inventory"
+      },
+      {
+        "id": "chat",
+        "title": "AI Chat Assistant",
+        "originalPath": "/features/chat"
+      },
+      {
+        "id": "voice",
+        "title": "Voice Receptionist",
+        "originalPath": "/features/voice"
+      },
+      {
+        "id": "symptom-checker",
+        "title": "AI Symptom Checker",
+        "originalPath": "/features/symptom-checker"
+      },
+      {
+        "id": "mental-health",
+        "title": "AI Mental Health Companion",
+        "originalPath": "/features/mental-health"
+      },
+      {
+        "id": "sleep-coach",
+        "title": "AI Sleep Coach",
+        "originalPath": "/features/sleep-coach"
+      },
+      {
+        "id": "posture-corrector",
+        "title": "AI Posture Corrector",
+        "originalPath": "/features/posture-corrector"
+      },
+      {
+        "id": "transforming-beauty-industry",
+        "title": "5 Ways AI is Transforming the Beauty Industry",
+        "originalPath": "/features/transforming-beauty-industry"
+      }
+    ]
+  },
+  {
+    "id": "ai-finance",
+    "title": "Finance & reconciliation",
+    "group": "AI assistants",
+    "path": "/assistants/ai-finance",
+    "featureIds": [
+      "commission-optimization",
+      "revenue",
+      "revenue-forecast"
+    ],
+    "ai": true,
+    "representativeId": "commission-optimization",
+    "description": "One assistant for 3 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "commission-optimization",
+        "title": "Commission optimization",
+        "originalPath": "/features/commission-optimization"
+      },
+      {
+        "id": "revenue",
+        "title": "Revenue Predictor",
+        "originalPath": "/features/revenue"
+      },
+      {
+        "id": "revenue-forecast",
+        "title": "Revenue Forecast",
+        "originalPath": "/features/revenue-forecast"
+      }
+    ]
+  },
+  {
+    "id": "ai-creative",
+    "title": "Creative & design",
+    "group": "AI assistants",
+    "path": "/assistants/ai-creative",
+    "featureIds": [
+      "flash-design-generator"
+    ],
+    "ai": true,
+    "representativeId": "flash-design-generator",
+    "description": "One assistant for 1 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "flash-design-generator",
+        "title": "Flash Design Generator",
+        "originalPath": "/features/flash-design-generator"
+      }
+    ]
+  },
+  {
+    "id": "ai-growth",
+    "title": "Marketing & customer growth",
+    "group": "AI assistants",
+    "path": "/assistants/ai-growth",
+    "featureIds": [
+      "social-media-caption-generator",
+      "social-media",
+      "upsell",
+      "reactivation",
+      "sentiment",
+      "loyalty-optimizer",
+      "review-response",
+      "reactivation-message"
+    ],
+    "ai": true,
+    "representativeId": "social-media-caption-generator",
+    "description": "One assistant for 8 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "social-media-caption-generator",
+        "title": "Social Media Caption Generator",
+        "originalPath": "/features/social-media-caption-generator"
+      },
+      {
+        "id": "social-media",
+        "title": "Social Media Content",
+        "originalPath": "/features/social-media"
+      },
+      {
+        "id": "upsell",
+        "title": "Upsell Suggestions",
+        "originalPath": "/features/upsell"
+      },
+      {
+        "id": "reactivation",
+        "title": "Client Reactivation",
+        "originalPath": "/features/reactivation"
+      },
+      {
+        "id": "sentiment",
+        "title": "Sentiment Analysis",
+        "originalPath": "/features/sentiment"
+      },
+      {
+        "id": "loyalty-optimizer",
+        "title": "AI Loyalty Program Manager",
+        "originalPath": "/features/loyalty-optimizer"
+      },
+      {
+        "id": "review-response",
+        "title": "Review Response",
+        "originalPath": "/features/review-response"
+      },
+      {
+        "id": "reactivation-message",
+        "title": "Reactivation Message",
+        "originalPath": "/features/reactivation-message"
+      }
+    ]
+  },
+  {
+    "id": "ai-quality",
+    "title": "Risk, quality & compliance",
+    "group": "AI assistants",
+    "path": "/assistants/ai-quality",
+    "featureIds": [
+      "ai-infection-risk-scoring"
+    ],
+    "ai": true,
+    "representativeId": "ai-infection-risk-scoring",
+    "description": "One assistant for 1 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "ai-infection-risk-scoring",
+        "title": "ai infection risk scoring",
+        "originalPath": "/features/ai-infection-risk-scoring"
+      }
+    ]
+  }
+]

@@ -1,0 +1,1601 @@
+{
+  "mapped": [
+    {
+      "project": "AISalonSpaBookingOptimizer",
+      "sourceKey": "stylist-match",
+      "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer/client/src/pages/AIFeaturesPage.js",
+      "canonical": "stylist-match",
+      "kind": "definition"
+    },
+    {
+      "project": "AISalonSpaBookingOptimizer",
+      "sourceKey": "duration-predict",
+      "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer/client/src/pages/AIFeaturesPage.js",
+      "canonical": "duration-predict",
+      "kind": "definition"
+    },
+    {
+      "project": "AISalonSpaBookingOptimizer",
+      "sourceKey": "product-recommend",
+      "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer/client/src/pages/AIFeaturesPage.js",
+      "canonical": "product-recommend",
+      "kind": "definition"
+    },
+    {
+      "project": "AISalonSpaBookingOptimizer",
+      "sourceKey": "rebook-suggest",
+      "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer/client/src/pages/AIFeaturesPage.js",
+      "canonical": "rebook-suggest",
+      "kind": "definition"
+    },
+    {
+      "project": "AISalonSpaBookingOptimizer",
+      "sourceKey": "waitlist-optimize",
+      "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer/client/src/pages/AIFeaturesPage.js",
+      "canonical": "waitlist-optimize",
+      "kind": "definition"
+    },
+    {
+      "project": "AISalonSpaBookingOptimizer",
+      "sourceKey": "stylists",
+      "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+      "canonical": "stylists",
+      "kind": "route"
+    },
+    {
+      "project": "AISalonSpaBookingOptimizer",
+      "sourceKey": "services",
+      "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+      "canonical": "services",
+      "kind": "route"
+    },
+    {
+      "project": "AISalonSpaBookingOptimizer",
+      "sourceKey": "clients",
+      "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+      "canonical": "clients",
+      "kind": "route"
+    },
+    {
+      "project": "AISalonSpaBookingOptimizer",
+      "sourceKey": "bookings",
+      "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+      "canonical": "bookings",
+      "kind": "route"
+    },
+    {
+      "project": "AISalonSpaBookingOptimizer",
+      "sourceKey": "products",
+      "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+      "canonical": "products",
+      "kind": "route"
+    },
+    {
+      "project": "AISalonSpaBookingOptimizer",
+      "sourceKey": "waitlist",
+      "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+      "canonical": "waitlist",
+      "kind": "route"
+    },
+    {
+      "project": "AISalonSpaBookingOptimizer",
+      "sourceKey": "schedules",
+      "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+      "canonical": "schedules",
+      "kind": "route"
+    },
+    {
+      "project": "AISalonSpaBookingOptimizer",
+      "sourceKey": "reviews",
+      "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+      "canonical": "reviews",
+      "kind": "route"
+    },
+    {
+      "project": "AISalonSpaBookingOptimizer",
+      "sourceKey": "promotions",
+      "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+      "canonical": "promotions",
+      "kind": "route"
+    },
+    {
+      "project": "AISalonSpaBookingOptimizer",
+      "sourceKey": "inventory",
+      "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+      "canonical": "inventory",
+      "kind": "route"
+    },
+    {
+      "project": "AISalonSpaBookingOptimizer",
+      "sourceKey": "loyalty",
+      "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+      "canonical": "loyalty",
+      "kind": "route"
+    },
+    {
+      "project": "AISalonSpaBookingOptimizer",
+      "sourceKey": "reports",
+      "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+      "canonical": "reports",
+      "kind": "route"
+    },
+    {
+      "project": "AISalonSpaBookingOptimizer",
+      "sourceKey": "giftcards",
+      "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+      "canonical": "giftcards",
+      "kind": "route"
+    },
+    {
+      "project": "AISalonSpaBookingOptimizer",
+      "sourceKey": "expenses",
+      "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+      "canonical": "expenses",
+      "kind": "route"
+    },
+    {
+      "project": "AISalonSpaBookingOptimizer",
+      "sourceKey": "communications",
+      "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+      "canonical": "messages",
+      "kind": "route"
+    },
+    {
+      "project": "AISalonSpaBookingOptimizer",
+      "sourceKey": "performance",
+      "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+      "canonical": "performance",
+      "kind": "route"
+    },
+    {
+      "project": "AISalonSpaBookingOptimizer",
+      "sourceKey": "calendar",
+      "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+      "canonical": "calendar",
+      "kind": "route"
+    },
+    {
+      "project": "AISalonSpaBookingOptimizer",
+      "sourceKey": "tips",
+      "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+      "canonical": "tips",
+      "kind": "route"
+    },
+    {
+      "project": "AISalonSpaBookingOptimizer",
+      "sourceKey": "checkin",
+      "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+      "canonical": "checkin",
+      "kind": "route"
+    },
+    {
+      "project": "AISalonSpaBookingOptimizer",
+      "sourceKey": "memberships",
+      "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+      "canonical": "memberships",
+      "kind": "route"
+    },
+    {
+      "project": "AISalonSpaBookingOptimizer",
+      "sourceKey": "suppliers",
+      "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+      "canonical": "suppliers",
+      "kind": "route"
+    },
+    {
+      "project": "AISalonSpaBookingOptimizer",
+      "sourceKey": "payroll",
+      "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+      "canonical": "payroll",
+      "kind": "route"
+    },
+    {
+      "project": "AISalonSpaBookingOptimizer",
+      "sourceKey": "booking-calendar",
+      "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+      "canonical": "booking-calendar",
+      "kind": "route"
+    },
+    {
+      "project": "AISalonSpaBookingOptimizer",
+      "sourceKey": "commissions",
+      "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+      "canonical": "commissions",
+      "kind": "route"
+    },
+    {
+      "project": "AISalonSpaBookingOptimizer",
+      "sourceKey": "rebook-queue",
+      "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+      "canonical": "rebook-queue",
+      "kind": "route"
+    },
+    {
+      "project": "AISalonSpaBookingOptimizer",
+      "sourceKey": "reminders",
+      "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+      "canonical": "deadlines",
+      "kind": "route"
+    },
+    {
+      "project": "AISalonSpaBookingOptimizer",
+      "sourceKey": "ai/service-demand-forecast",
+      "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+      "canonical": "service-demand-forecast",
+      "kind": "route"
+    },
+    {
+      "project": "AISalonSpaBookingOptimizer",
+      "sourceKey": "ai/stylist-workload-balance",
+      "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+      "canonical": "stylist-workload-balance",
+      "kind": "route"
+    },
+    {
+      "project": "AISalonSpaBookingOptimizer",
+      "sourceKey": "ai/appointment-conflict-detection",
+      "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+      "canonical": "appointment-conflict-detection",
+      "kind": "route"
+    },
+    {
+      "project": "AISalonSpaBookingOptimizer",
+      "sourceKey": "ai/commission-optimization",
+      "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+      "canonical": "commission-optimization",
+      "kind": "route"
+    },
+    {
+      "project": "AISalonSpaBookingOptimizer",
+      "sourceKey": "ai/retail-recommend",
+      "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+      "canonical": "retail-recommend",
+      "kind": "route"
+    },
+    {
+      "project": "AISalonSpaBookingOptimizer",
+      "sourceKey": "cf-smart-service-bundling",
+      "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+      "canonical": "smart-service-bundling",
+      "kind": "route"
+    },
+    {
+      "project": "AISalonSpaBookingOptimizer",
+      "sourceKey": "cf-stylist-skill-tagging-matching",
+      "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+      "canonical": "stylist-skill-tagging-matching",
+      "kind": "route"
+    },
+    {
+      "project": "AISalonSpaBookingOptimizer",
+      "sourceKey": "cf-dynamic-service-pricing",
+      "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+      "canonical": "dynamic-service-pricing",
+      "kind": "route"
+    },
+    {
+      "project": "AISalonSpaBookingOptimizer",
+      "sourceKey": "cf-client-lifetime-value-scoring",
+      "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+      "canonical": "client-lifetime-value-scoring",
+      "kind": "route"
+    },
+    {
+      "project": "AISalonSpaBookingOptimizer",
+      "sourceKey": "cf-inventory-management-automation",
+      "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+      "canonical": "inventory-management-automation",
+      "kind": "route"
+    },
+    {
+      "project": "AISalonSpaBookingOptimizer",
+      "sourceKey": "cf-waitlist-fulfillment-ai",
+      "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+      "canonical": "waitlist-fulfillment-ai",
+      "kind": "route"
+    },
+    {
+      "project": "AISalonSpaBookingOptimizer",
+      "sourceKey": "gap-no-servicedemandforecast-busytime-prediction",
+      "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+      "canonical": "servicedemandforecast-busytime-prediction",
+      "kind": "route"
+    },
+    {
+      "project": "AISalonSpaBookingOptimizer",
+      "sourceKey": "gap-no-stylistworkloadbalance",
+      "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+      "canonical": "stylistworkloadbalance",
+      "kind": "route"
+    },
+    {
+      "project": "AISalonSpaBookingOptimizer",
+      "sourceKey": "gap-no-commissionoptimization",
+      "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+      "canonical": "commissionoptimization",
+      "kind": "route"
+    },
+    {
+      "project": "AISalonSpaBookingOptimizer",
+      "sourceKey": "gap-no-retailrecommend-product-to-add-to-service",
+      "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+      "canonical": "retailrecommend-product-to-add-to-service",
+      "kind": "route"
+    },
+    {
+      "project": "AISalonSpaBookingOptimizer",
+      "sourceKey": "gap-no-appointmentconflictdetection",
+      "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+      "canonical": "appointmentconflictdetection",
+      "kind": "route"
+    },
+    {
+      "project": "AISalonSpaBookingOptimizer",
+      "sourceKey": "gap-no-noshow-prediction",
+      "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+      "canonical": "noshow-prediction",
+      "kind": "route"
+    },
+    {
+      "project": "AISalonSpaBookingOptimizer",
+      "sourceKey": "gap-no-public-online-booking-widget-api",
+      "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+      "canonical": "public-online-booking-widget-api",
+      "kind": "route"
+    },
+    {
+      "project": "AISalonSpaBookingOptimizer",
+      "sourceKey": "gap-no-automated-reminder-smsemail-communication",
+      "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+      "canonical": "automated-reminder-smsemail-communication",
+      "kind": "route"
+    },
+    {
+      "project": "AISalonSpaBookingOptimizer",
+      "sourceKey": "gap-no-supplier-reorder-automation",
+      "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+      "canonical": "supplier-reorder-automation",
+      "kind": "route"
+    },
+    {
+      "project": "AISalonSpaBookingOptimizer",
+      "sourceKey": "gap-no-staff-absence-coverage-planning",
+      "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+      "canonical": "staff-absence-coverage-planning",
+      "kind": "route"
+    },
+    {
+      "project": "AISalonSpaBookingOptimizer",
+      "sourceKey": "gap-no-payment-processor-integration",
+      "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+      "canonical": "payment-processor-integration",
+      "kind": "route"
+    },
+    {
+      "project": "AISalonSpaBookingOptimizer",
+      "sourceKey": "gap-no-pos-hardware-integration",
+      "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+      "canonical": "pos-hardware-integration",
+      "kind": "route"
+    },
+    {
+      "project": "AITattooBodyArtStudioManager",
+      "sourceKey": "Flash Design Generator",
+      "source": "/Volumes/external/projects/AITattooBodyArtStudioManager/client/src/pages/AIPage.js",
+      "canonical": "flash-design-generator",
+      "kind": "definition"
+    },
+    {
+      "project": "AITattooBodyArtStudioManager",
+      "sourceKey": "Consent Form Customizer",
+      "source": "/Volumes/external/projects/AITattooBodyArtStudioManager/client/src/pages/AIPage.js",
+      "canonical": "consent-form-customizer",
+      "kind": "definition"
+    },
+    {
+      "project": "AITattooBodyArtStudioManager",
+      "sourceKey": "Aftercare Personalizer",
+      "source": "/Volumes/external/projects/AITattooBodyArtStudioManager/client/src/pages/AIPage.js",
+      "canonical": "aftercare-personalizer",
+      "kind": "definition"
+    },
+    {
+      "project": "AITattooBodyArtStudioManager",
+      "sourceKey": "Social Media Caption Generator",
+      "source": "/Volumes/external/projects/AITattooBodyArtStudioManager/client/src/pages/AIPage.js",
+      "canonical": "social-media-caption-generator",
+      "kind": "definition"
+    },
+    {
+      "project": "AITattooBodyArtStudioManager",
+      "sourceKey": "Style Matcher",
+      "source": "/Volumes/external/projects/AITattooBodyArtStudioManager/client/src/pages/AIPage.js",
+      "canonical": "style-matcher",
+      "kind": "definition"
+    },
+    {
+      "project": "AITattooBodyArtStudioManager",
+      "sourceKey": "Portfolio Style Classifier",
+      "source": "/Volumes/external/projects/AITattooBodyArtStudioManager/client/src/pages/AIPage.js",
+      "canonical": "portfolio-style-classifier",
+      "kind": "definition"
+    },
+    {
+      "project": "AITattooBodyArtStudioManager",
+      "sourceKey": "Demand Forecast",
+      "source": "/Volumes/external/projects/AITattooBodyArtStudioManager/client/src/pages/AIPage.js",
+      "canonical": "demand-forecast",
+      "kind": "definition"
+    },
+    {
+      "project": "AITattooBodyArtStudioManager",
+      "sourceKey": "Message Drafter",
+      "source": "/Volumes/external/projects/AITattooBodyArtStudioManager/client/src/pages/AIPage.js",
+      "canonical": "message-drafter",
+      "kind": "definition"
+    },
+    {
+      "project": "AITattooBodyArtStudioManager",
+      "sourceKey": "artists",
+      "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+      "canonical": "artists",
+      "kind": "route"
+    },
+    {
+      "project": "AITattooBodyArtStudioManager",
+      "sourceKey": "appointments",
+      "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+      "canonical": "appointments",
+      "kind": "route"
+    },
+    {
+      "project": "AITattooBodyArtStudioManager",
+      "sourceKey": "clients",
+      "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+      "canonical": "clients",
+      "kind": "route"
+    },
+    {
+      "project": "AITattooBodyArtStudioManager",
+      "sourceKey": "consent",
+      "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+      "canonical": "consent",
+      "kind": "route"
+    },
+    {
+      "project": "AITattooBodyArtStudioManager",
+      "sourceKey": "consultations",
+      "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+      "canonical": "consultations",
+      "kind": "route"
+    },
+    {
+      "project": "AITattooBodyArtStudioManager",
+      "sourceKey": "inventory",
+      "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+      "canonical": "inventory",
+      "kind": "route"
+    },
+    {
+      "project": "AITattooBodyArtStudioManager",
+      "sourceKey": "sterilization",
+      "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+      "canonical": "sterilization",
+      "kind": "route"
+    },
+    {
+      "project": "AITattooBodyArtStudioManager",
+      "sourceKey": "walkins",
+      "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+      "canonical": "walkins",
+      "kind": "route"
+    },
+    {
+      "project": "AITattooBodyArtStudioManager",
+      "sourceKey": "gifts",
+      "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+      "canonical": "gifts",
+      "kind": "route"
+    },
+    {
+      "project": "AITattooBodyArtStudioManager",
+      "sourceKey": "loyalty",
+      "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+      "canonical": "loyalty",
+      "kind": "route"
+    },
+    {
+      "project": "AITattooBodyArtStudioManager",
+      "sourceKey": "commissions",
+      "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+      "canonical": "commissions",
+      "kind": "route"
+    },
+    {
+      "project": "AITattooBodyArtStudioManager",
+      "sourceKey": "cleaning",
+      "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+      "canonical": "cleaning",
+      "kind": "route"
+    },
+    {
+      "project": "AITattooBodyArtStudioManager",
+      "sourceKey": "flash",
+      "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+      "canonical": "flash",
+      "kind": "route"
+    },
+    {
+      "project": "AITattooBodyArtStudioManager",
+      "sourceKey": "aftercare",
+      "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+      "canonical": "aftercare",
+      "kind": "route"
+    },
+    {
+      "project": "AITattooBodyArtStudioManager",
+      "sourceKey": "healing",
+      "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+      "canonical": "healing",
+      "kind": "route"
+    },
+    {
+      "project": "AITattooBodyArtStudioManager",
+      "sourceKey": "artist-performance",
+      "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+      "canonical": "artist-performance",
+      "kind": "route"
+    },
+    {
+      "project": "AITattooBodyArtStudioManager",
+      "sourceKey": "smart-booking",
+      "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+      "canonical": "smart-booking",
+      "kind": "route"
+    },
+    {
+      "project": "AITattooBodyArtStudioManager",
+      "sourceKey": "cf-healing-outcome-prediction-by-artist-style-location-to",
+      "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+      "canonical": "healing-outcome-prediction-by-artist-style-location-to",
+      "kind": "route"
+    },
+    {
+      "project": "AITattooBodyArtStudioManager",
+      "sourceKey": "cf-portfolio-style-classification-auto-tagging-artist-work",
+      "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+      "canonical": "portfolio-style-classification-auto-tagging-artist-work",
+      "kind": "route"
+    },
+    {
+      "project": "AITattooBodyArtStudioManager",
+      "sourceKey": "cf-demand-forecasting-to-optimize-artist-scheduling-for-peak",
+      "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+      "canonical": "demand-forecasting-to-optimize-artist-scheduling-for-peak",
+      "kind": "route"
+    },
+    {
+      "project": "AITattooBodyArtStudioManager",
+      "sourceKey": "cf-social-proof-automation-generating-before-after-post-sequences",
+      "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+      "canonical": "social-proof-automation-generating-before-after-post-sequences",
+      "kind": "route"
+    },
+    {
+      "project": "AITattooBodyArtStudioManager",
+      "sourceKey": "cf-osha-bloodborne-pathogen-compliance-dashboard-with-audit-ready-logs",
+      "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+      "canonical": "osha-bloodborne-pathogen-compliance-dashboard-with-audit-ready-logs",
+      "kind": "route"
+    },
+    {
+      "project": "AITattooBodyArtStudioManager",
+      "sourceKey": "gap-no-ai-driven-portfolio-style-classification",
+      "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+      "canonical": "ai-driven-portfolio-style-classification",
+      "kind": "route"
+    },
+    {
+      "project": "AITattooBodyArtStudioManager",
+      "sourceKey": "gap-no-demand-forecasting-for-peak-hours",
+      "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+      "canonical": "demand-forecasting-for-peak-hours",
+      "kind": "route"
+    },
+    {
+      "project": "AITattooBodyArtStudioManager",
+      "sourceKey": "gap-no-ai-infection-risk-scoring",
+      "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+      "canonical": "ai-infection-risk-scoring",
+      "kind": "route"
+    },
+    {
+      "project": "AITattooBodyArtStudioManager",
+      "sourceKey": "gap-no-integrations-with-payment-processing-square-stripe",
+      "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+      "canonical": "integrations-with-payment-processing-square-stripe",
+      "kind": "route"
+    },
+    {
+      "project": "AITattooBodyArtStudioManager",
+      "sourceKey": "gap-no-formal-health-safety-compliance-tracking-module-blood-borne",
+      "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+      "canonical": "formal-health-safety-compliance-tracking-module-blood-borne",
+      "kind": "route"
+    },
+    {
+      "project": "AITattooBodyArtStudioManager",
+      "sourceKey": "gap-no-portfolio-gallery-storefront-for-public-viewing",
+      "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+      "canonical": "portfolio-gallery-storefront-for-public-viewing",
+      "kind": "route"
+    },
+    {
+      "project": "AITattooBodyArtStudioManager",
+      "sourceKey": "gap-no-multi-location-multi-studio-support",
+      "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+      "canonical": "multi-location-multi-studio-support",
+      "kind": "route"
+    },
+    {
+      "project": "AITattooBodyArtStudioManager",
+      "sourceKey": "gap-no-webhooks-or-notifications",
+      "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+      "canonical": "webhooks-or-notifications",
+      "kind": "route"
+    },
+    {
+      "project": "AITattooBodyArtStudioManager",
+      "sourceKey": "gap-no-sms-email-reminder-infrastructure",
+      "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+      "canonical": "sms-email-reminder-infrastructure",
+      "kind": "route"
+    },
+    {
+      "project": "beautyhqio",
+      "sourceKey": "chat",
+      "source": "/Volumes/external/projects/beautyhqio/src/app/(dashboard)/ai/page.tsx",
+      "canonical": "chat",
+      "kind": "definition"
+    },
+    {
+      "project": "beautyhqio",
+      "sourceKey": "scheduling",
+      "source": "/Volumes/external/projects/beautyhqio/src/app/(dashboard)/ai/page.tsx",
+      "canonical": "scheduling",
+      "kind": "definition"
+    },
+    {
+      "project": "beautyhqio",
+      "sourceKey": "client-insights",
+      "source": "/Volumes/external/projects/beautyhqio/src/app/(dashboard)/ai/page.tsx",
+      "canonical": "client-insights",
+      "kind": "definition"
+    },
+    {
+      "project": "beautyhqio",
+      "sourceKey": "revenue",
+      "source": "/Volumes/external/projects/beautyhqio/src/app/(dashboard)/ai/page.tsx",
+      "canonical": "revenue",
+      "kind": "definition"
+    },
+    {
+      "project": "beautyhqio",
+      "sourceKey": "no-show",
+      "source": "/Volumes/external/projects/beautyhqio/src/app/(dashboard)/ai/page.tsx",
+      "canonical": "no-show",
+      "kind": "definition"
+    },
+    {
+      "project": "beautyhqio",
+      "sourceKey": "style",
+      "source": "/Volumes/external/projects/beautyhqio/src/app/(dashboard)/ai/page.tsx",
+      "canonical": "style",
+      "kind": "definition"
+    },
+    {
+      "project": "beautyhqio",
+      "sourceKey": "voice",
+      "source": "/Volumes/external/projects/beautyhqio/src/app/(dashboard)/ai/page.tsx",
+      "canonical": "voice",
+      "kind": "definition"
+    },
+    {
+      "project": "beautyhqio",
+      "sourceKey": "social-media",
+      "source": "/Volumes/external/projects/beautyhqio/src/app/(dashboard)/ai/page.tsx",
+      "canonical": "social-media",
+      "kind": "definition"
+    },
+    {
+      "project": "beautyhqio",
+      "sourceKey": "upsell",
+      "source": "/Volumes/external/projects/beautyhqio/src/app/(dashboard)/ai/page.tsx",
+      "canonical": "upsell",
+      "kind": "definition"
+    },
+    {
+      "project": "beautyhqio",
+      "sourceKey": "inventory",
+      "source": "/Volumes/external/projects/beautyhqio/src/app/(dashboard)/ai/page.tsx",
+      "canonical": "inventory",
+      "kind": "definition"
+    },
+    {
+      "project": "beautyhqio",
+      "sourceKey": "reactivation",
+      "source": "/Volumes/external/projects/beautyhqio/src/app/(dashboard)/ai/page.tsx",
+      "canonical": "reactivation",
+      "kind": "definition"
+    },
+    {
+      "project": "beautyhqio",
+      "sourceKey": "sentiment",
+      "source": "/Volumes/external/projects/beautyhqio/src/app/(dashboard)/ai/page.tsx",
+      "canonical": "sentiment",
+      "kind": "definition"
+    },
+    {
+      "project": "beautyhqio",
+      "sourceKey": "waitlist",
+      "source": "/Volumes/external/projects/beautyhqio/src/app/(dashboard)/ai/page.tsx",
+      "canonical": "waitlist",
+      "kind": "definition"
+    },
+    {
+      "project": "beautyhqio",
+      "sourceKey": "symptom-checker",
+      "source": "/Volumes/external/projects/beautyhqio/src/app/(dashboard)/ai/page.tsx",
+      "canonical": "symptom-checker",
+      "kind": "definition"
+    },
+    {
+      "project": "beautyhqio",
+      "sourceKey": "mental-health",
+      "source": "/Volumes/external/projects/beautyhqio/src/app/(dashboard)/ai/page.tsx",
+      "canonical": "mental-health",
+      "kind": "definition"
+    },
+    {
+      "project": "beautyhqio",
+      "sourceKey": "skin-analyzer",
+      "source": "/Volumes/external/projects/beautyhqio/src/app/(dashboard)/ai/page.tsx",
+      "canonical": "skin-analyzer",
+      "kind": "definition"
+    },
+    {
+      "project": "beautyhqio",
+      "sourceKey": "sleep-coach",
+      "source": "/Volumes/external/projects/beautyhqio/src/app/(dashboard)/ai/page.tsx",
+      "canonical": "sleep-coach",
+      "kind": "definition"
+    },
+    {
+      "project": "beautyhqio",
+      "sourceKey": "posture-corrector",
+      "source": "/Volumes/external/projects/beautyhqio/src/app/(dashboard)/ai/page.tsx",
+      "canonical": "posture-corrector",
+      "kind": "definition"
+    },
+    {
+      "project": "beautyhqio",
+      "sourceKey": "product-recommender",
+      "source": "/Volumes/external/projects/beautyhqio/src/app/(dashboard)/ai/page.tsx",
+      "canonical": "product-recommender",
+      "kind": "definition"
+    },
+    {
+      "project": "beautyhqio",
+      "sourceKey": "loyalty-optimizer",
+      "source": "/Volumes/external/projects/beautyhqio/src/app/(dashboard)/ai/page.tsx",
+      "canonical": "loyalty-optimizer",
+      "kind": "definition"
+    },
+    {
+      "project": "beautyhqio",
+      "sourceKey": "ai-transforming-beauty-industry",
+      "source": "/Volumes/external/projects/beautyhqio/src/app/blog/page.tsx",
+      "canonical": "transforming-beauty-industry",
+      "kind": "definition"
+    },
+    {
+      "project": "beautyhqio",
+      "sourceKey": "/cash-drawer",
+      "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+      "canonical": "cash-drawer",
+      "kind": "definition"
+    },
+    {
+      "project": "beautyhqio",
+      "sourceKey": "/purchasing",
+      "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+      "canonical": "purchasing",
+      "kind": "definition"
+    },
+    {
+      "project": "beautyhqio",
+      "sourceKey": "/operations/integrations",
+      "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+      "canonical": "connections",
+      "kind": "definition"
+    },
+    {
+      "project": "beautyhqio",
+      "sourceKey": "/timesheets",
+      "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+      "canonical": "time",
+      "kind": "definition"
+    },
+    {
+      "project": "beautyhqio",
+      "sourceKey": "/ai/workspace",
+      "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+      "canonical": "workspace",
+      "kind": "definition"
+    },
+    {
+      "project": "beautyhqio",
+      "sourceKey": "/admin",
+      "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+      "canonical": "admin",
+      "kind": "definition"
+    },
+    {
+      "project": "beautyhqio",
+      "sourceKey": "/admin/salons",
+      "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+      "canonical": "admin-salons",
+      "kind": "definition"
+    },
+    {
+      "project": "beautyhqio",
+      "sourceKey": "/admin/revenue",
+      "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+      "canonical": "admin-revenue",
+      "kind": "definition"
+    },
+    {
+      "project": "beautyhqio",
+      "sourceKey": "/admin/subscriptions",
+      "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+      "canonical": "admin-subscriptions",
+      "kind": "definition"
+    },
+    {
+      "project": "beautyhqio",
+      "sourceKey": "/clients",
+      "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+      "canonical": "clients",
+      "kind": "definition"
+    },
+    {
+      "project": "beautyhqio",
+      "sourceKey": "/calendar",
+      "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+      "canonical": "calendar",
+      "kind": "definition"
+    },
+    {
+      "project": "beautyhqio",
+      "sourceKey": "/appointments",
+      "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+      "canonical": "appointments",
+      "kind": "definition"
+    },
+    {
+      "project": "beautyhqio",
+      "sourceKey": "/treatment-room-turnover",
+      "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+      "canonical": "treatment-room-turnover",
+      "kind": "definition"
+    },
+    {
+      "project": "beautyhqio",
+      "sourceKey": "/pos",
+      "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+      "canonical": "pos",
+      "kind": "definition"
+    },
+    {
+      "project": "beautyhqio",
+      "sourceKey": "/services",
+      "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+      "canonical": "services",
+      "kind": "definition"
+    },
+    {
+      "project": "beautyhqio",
+      "sourceKey": "/staff",
+      "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+      "canonical": "staff",
+      "kind": "definition"
+    },
+    {
+      "project": "beautyhqio",
+      "sourceKey": "/products",
+      "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+      "canonical": "products",
+      "kind": "definition"
+    },
+    {
+      "project": "beautyhqio",
+      "sourceKey": "/loyalty",
+      "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+      "canonical": "loyalty",
+      "kind": "definition"
+    },
+    {
+      "project": "beautyhqio",
+      "sourceKey": "/gift-cards",
+      "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+      "canonical": "gift-cards",
+      "kind": "definition"
+    },
+    {
+      "project": "beautyhqio",
+      "sourceKey": "/billing",
+      "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+      "canonical": "billing",
+      "kind": "definition"
+    },
+    {
+      "project": "beautyhqio",
+      "sourceKey": "/marketing",
+      "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+      "canonical": "marketing",
+      "kind": "definition"
+    },
+    {
+      "project": "beautyhqio",
+      "sourceKey": "/reviews",
+      "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+      "canonical": "reviews",
+      "kind": "definition"
+    },
+    {
+      "project": "beautyhqio",
+      "sourceKey": "/reports",
+      "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+      "canonical": "reports",
+      "kind": "definition"
+    },
+    {
+      "project": "beautyhqio",
+      "sourceKey": "/reports/leads",
+      "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+      "canonical": "reports-leads",
+      "kind": "definition"
+    },
+    {
+      "project": "beautyhqio",
+      "sourceKey": "/crm",
+      "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+      "canonical": "crm",
+      "kind": "definition"
+    },
+    {
+      "project": "beautyhqio",
+      "sourceKey": "/marketplace",
+      "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+      "canonical": "marketplace",
+      "kind": "definition"
+    },
+    {
+      "project": "beautyhqio",
+      "sourceKey": "/subscription",
+      "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+      "canonical": "subscription",
+      "kind": "definition"
+    },
+    {
+      "project": "beautyhqio",
+      "sourceKey": "/staff/schedule",
+      "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+      "canonical": "staff-schedule",
+      "kind": "definition"
+    },
+    {
+      "project": "beautyhqio",
+      "sourceKey": "/staff/clients",
+      "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+      "canonical": "staff-clients",
+      "kind": "definition"
+    },
+    {
+      "project": "beautyhqio",
+      "sourceKey": "/staff/earnings",
+      "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+      "canonical": "staff-earnings",
+      "kind": "definition"
+    },
+    {
+      "project": "beautyhqio",
+      "sourceKey": "/staff/settings",
+      "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+      "canonical": "staff-settings",
+      "kind": "definition"
+    },
+    {
+      "project": "beautyhqio",
+      "sourceKey": "/client/book",
+      "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+      "canonical": "client-book",
+      "kind": "definition"
+    },
+    {
+      "project": "beautyhqio",
+      "sourceKey": "/client/appointments",
+      "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+      "canonical": "client-appointments",
+      "kind": "definition"
+    },
+    {
+      "project": "beautyhqio",
+      "sourceKey": "/client/profile",
+      "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+      "canonical": "client-profile",
+      "kind": "definition"
+    },
+    {
+      "project": "beautyhqio",
+      "sourceKey": "/client/payments",
+      "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+      "canonical": "client-payments",
+      "kind": "definition"
+    },
+    {
+      "project": "beautyhqio",
+      "sourceKey": "/client/rewards",
+      "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+      "canonical": "client-rewards",
+      "kind": "definition"
+    },
+    {
+      "project": "beautyhqio",
+      "sourceKey": "blog",
+      "source": "/Volumes/external/projects/beautyhqio",
+      "canonical": "blog",
+      "kind": "route"
+    },
+    {
+      "project": "Boulevard",
+      "sourceKey": "/calendar",
+      "source": "/Volumes/external/projects/Boulevard/src/components/Layout.tsx",
+      "canonical": "calendar",
+      "kind": "definition"
+    },
+    {
+      "project": "Boulevard",
+      "sourceKey": "/clients",
+      "source": "/Volumes/external/projects/Boulevard/src/components/Layout.tsx",
+      "canonical": "clients",
+      "kind": "definition"
+    },
+    {
+      "project": "Boulevard",
+      "sourceKey": "/services",
+      "source": "/Volumes/external/projects/Boulevard/src/components/Layout.tsx",
+      "canonical": "services",
+      "kind": "definition"
+    },
+    {
+      "project": "Boulevard",
+      "sourceKey": "/staff",
+      "source": "/Volumes/external/projects/Boulevard/src/components/Layout.tsx",
+      "canonical": "staff",
+      "kind": "definition"
+    },
+    {
+      "project": "Boulevard",
+      "sourceKey": "/analytics",
+      "source": "/Volumes/external/projects/Boulevard/src/components/Layout.tsx",
+      "canonical": "reports",
+      "kind": "definition"
+    },
+    {
+      "project": "Boulevard",
+      "sourceKey": "/payments",
+      "source": "/Volumes/external/projects/Boulevard/src/components/Layout.tsx",
+      "canonical": "payments",
+      "kind": "definition"
+    },
+    {
+      "project": "Boulevard",
+      "sourceKey": "/notifications",
+      "source": "/Volumes/external/projects/Boulevard/src/components/Layout.tsx",
+      "canonical": "messages",
+      "kind": "definition"
+    },
+    {
+      "project": "Boulevard",
+      "sourceKey": "booking-assistant",
+      "source": "/Volumes/external/projects/Boulevard/src/pages/AITools.tsx",
+      "canonical": "booking-assistant",
+      "kind": "definition"
+    },
+    {
+      "project": "Boulevard",
+      "sourceKey": "no-show-predict",
+      "source": "/Volumes/external/projects/Boulevard/src/pages/AITools.tsx",
+      "canonical": "no-show",
+      "kind": "definition"
+    },
+    {
+      "project": "Boulevard",
+      "sourceKey": "staff-match",
+      "source": "/Volumes/external/projects/Boulevard/src/pages/AITools.tsx",
+      "canonical": "staff-match",
+      "kind": "definition"
+    },
+    {
+      "project": "Boulevard",
+      "sourceKey": "service-recommend",
+      "source": "/Volumes/external/projects/Boulevard/src/pages/AITools.tsx",
+      "canonical": "service-recommend",
+      "kind": "definition"
+    },
+    {
+      "project": "Boulevard",
+      "sourceKey": "schedule-optimizer",
+      "source": "/Volumes/external/projects/Boulevard/src/pages/AITools.tsx",
+      "canonical": "schedule-optimizer",
+      "kind": "definition"
+    },
+    {
+      "project": "Boulevard",
+      "sourceKey": "client-insights",
+      "source": "/Volumes/external/projects/Boulevard/src/pages/AITools.tsx",
+      "canonical": "client-insights",
+      "kind": "definition"
+    },
+    {
+      "project": "Boulevard",
+      "sourceKey": "upsell-suggestions",
+      "source": "/Volumes/external/projects/Boulevard/src/pages/AITools.tsx",
+      "canonical": "upsell",
+      "kind": "definition"
+    },
+    {
+      "project": "Boulevard",
+      "sourceKey": "review-response",
+      "source": "/Volumes/external/projects/Boulevard/src/pages/AITools.tsx",
+      "canonical": "review-response",
+      "kind": "definition"
+    },
+    {
+      "project": "Boulevard",
+      "sourceKey": "reactivation-message",
+      "source": "/Volumes/external/projects/Boulevard/src/pages/AITools.tsx",
+      "canonical": "reactivation-message",
+      "kind": "definition"
+    },
+    {
+      "project": "Boulevard",
+      "sourceKey": "revenue-forecast",
+      "source": "/Volumes/external/projects/Boulevard/src/pages/AITools.tsx",
+      "canonical": "revenue-forecast",
+      "kind": "definition"
+    },
+    {
+      "project": "Boulevard",
+      "sourceKey": "waitlist-intelligence",
+      "source": "/Volumes/external/projects/Boulevard/src/pages/AITools.tsx",
+      "canonical": "waitlist-intelligence",
+      "kind": "definition"
+    },
+    {
+      "project": "Boulevard",
+      "sourceKey": "kiosk-checkin",
+      "source": "/Volumes/external/projects/Boulevard",
+      "canonical": "kiosk-checkin",
+      "kind": "route"
+    },
+    {
+      "project": "Boulevard",
+      "sourceKey": "lapsed-ad-spend",
+      "source": "/Volumes/external/projects/Boulevard",
+      "canonical": "lapsed-ad-spend",
+      "kind": "route"
+    },
+    {
+      "project": "Boulevard",
+      "sourceKey": "therapist-compatibility",
+      "source": "/Volumes/external/projects/Boulevard",
+      "canonical": "therapist-compatibility",
+      "kind": "route"
+    },
+    {
+      "project": "Boulevard",
+      "sourceKey": "pos-hardware",
+      "source": "/Volumes/external/projects/Boulevard",
+      "canonical": "pos-hardware",
+      "kind": "route"
+    },
+    {
+      "project": "hairSalon",
+      "sourceKey": "/calendar",
+      "source": "/Volumes/external/projects/hairSalon/src/app/(dashboard)/dashboard/page.tsx",
+      "canonical": "calendar",
+      "kind": "definition"
+    },
+    {
+      "project": "hairSalon",
+      "sourceKey": "/clients",
+      "source": "/Volumes/external/projects/hairSalon/src/app/(dashboard)/dashboard/page.tsx",
+      "canonical": "clients",
+      "kind": "definition"
+    },
+    {
+      "project": "hairSalon",
+      "sourceKey": "/services",
+      "source": "/Volumes/external/projects/hairSalon/src/app/(dashboard)/dashboard/page.tsx",
+      "canonical": "services",
+      "kind": "definition"
+    },
+    {
+      "project": "hairSalon",
+      "sourceKey": "/staff",
+      "source": "/Volumes/external/projects/hairSalon/src/app/(dashboard)/dashboard/page.tsx",
+      "canonical": "staff",
+      "kind": "definition"
+    },
+    {
+      "project": "hairSalon",
+      "sourceKey": "/payments",
+      "source": "/Volumes/external/projects/hairSalon/src/app/(dashboard)/dashboard/page.tsx",
+      "canonical": "payments",
+      "kind": "definition"
+    },
+    {
+      "project": "hairSalon",
+      "sourceKey": "/inventory",
+      "source": "/Volumes/external/projects/hairSalon/src/app/(dashboard)/dashboard/page.tsx",
+      "canonical": "inventory",
+      "kind": "definition"
+    },
+    {
+      "project": "hairSalon",
+      "sourceKey": "/gift-cards",
+      "source": "/Volumes/external/projects/hairSalon/src/app/(dashboard)/dashboard/page.tsx",
+      "canonical": "gift-cards",
+      "kind": "definition"
+    },
+    {
+      "project": "hairSalon",
+      "sourceKey": "/loyalty",
+      "source": "/Volumes/external/projects/hairSalon/src/app/(dashboard)/dashboard/page.tsx",
+      "canonical": "loyalty",
+      "kind": "definition"
+    },
+    {
+      "project": "hairSalon",
+      "sourceKey": "/packages",
+      "source": "/Volumes/external/projects/hairSalon/src/app/(dashboard)/dashboard/page.tsx",
+      "canonical": "packages",
+      "kind": "definition"
+    },
+    {
+      "project": "hairSalon",
+      "sourceKey": "/memberships",
+      "source": "/Volumes/external/projects/hairSalon/src/app/(dashboard)/dashboard/page.tsx",
+      "canonical": "memberships",
+      "kind": "definition"
+    },
+    {
+      "project": "hairSalon",
+      "sourceKey": "/campaigns",
+      "source": "/Volumes/external/projects/hairSalon/src/app/(dashboard)/dashboard/page.tsx",
+      "canonical": "campaigns",
+      "kind": "definition"
+    },
+    {
+      "project": "hairSalon",
+      "sourceKey": "/tasks",
+      "source": "/Volumes/external/projects/hairSalon/src/app/(dashboard)/dashboard/page.tsx",
+      "canonical": "tasks",
+      "kind": "definition"
+    },
+    {
+      "project": "hairSalon",
+      "sourceKey": "/reports",
+      "source": "/Volumes/external/projects/hairSalon/src/app/(dashboard)/dashboard/page.tsx",
+      "canonical": "reports",
+      "kind": "definition"
+    },
+    {
+      "project": "hairSalon",
+      "sourceKey": "/retail",
+      "source": "/Volumes/external/projects/hairSalon/src/app/(dashboard)/dashboard/page.tsx",
+      "canonical": "retail",
+      "kind": "definition"
+    },
+    {
+      "project": "hairSalon",
+      "sourceKey": "/referrals",
+      "source": "/Volumes/external/projects/hairSalon/src/app/(dashboard)/dashboard/page.tsx",
+      "canonical": "referrals",
+      "kind": "definition"
+    },
+    {
+      "project": "hairSalon",
+      "sourceKey": "/waitlist",
+      "source": "/Volumes/external/projects/hairSalon/src/app/(dashboard)/dashboard/page.tsx",
+      "canonical": "waitlist",
+      "kind": "definition"
+    },
+    {
+      "project": "hairSalon",
+      "sourceKey": "/tips",
+      "source": "/Volumes/external/projects/hairSalon/src/app/(dashboard)/dashboard/page.tsx",
+      "canonical": "tips",
+      "kind": "definition"
+    },
+    {
+      "project": "hairSalon",
+      "sourceKey": "/commissions",
+      "source": "/Volumes/external/projects/hairSalon/src/app/(dashboard)/dashboard/page.tsx",
+      "canonical": "commissions",
+      "kind": "definition"
+    },
+    {
+      "project": "hairSalon",
+      "sourceKey": "/time-off",
+      "source": "/Volumes/external/projects/hairSalon/src/app/(dashboard)/dashboard/page.tsx",
+      "canonical": "time-off",
+      "kind": "definition"
+    },
+    {
+      "project": "hairSalon",
+      "sourceKey": "/gallery",
+      "source": "/Volumes/external/projects/hairSalon/src/app/(dashboard)/dashboard/page.tsx",
+      "canonical": "gallery",
+      "kind": "definition"
+    },
+    {
+      "project": "hairSalon",
+      "sourceKey": "locations",
+      "source": "/Volumes/external/projects/hairSalon",
+      "canonical": "locations",
+      "kind": "route"
+    }
+  ],
+  "ignored": [
+    {
+      "project": "AISalonSpaBookingOptimizer",
+      "key": "insights/timeline",
+      "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AISalonSpaBookingOptimizer",
+      "key": "codex/custom-viz",
+      "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AISalonSpaBookingOptimizer",
+      "key": "codex/operations",
+      "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AISalonSpaBookingOptimizer",
+      "key": "/",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AISalonSpaBookingOptimizer",
+      "key": "ai",
+      "source": "/Volumes/external/projects/AISalonSpaBookingOptimizer",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AISalonSpaBookingOptimizer",
+      "key": "*",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AITattooBodyArtStudioManager",
+      "key": "insights/timeline",
+      "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AITattooBodyArtStudioManager",
+      "key": "codex/custom-viz",
+      "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AITattooBodyArtStudioManager",
+      "key": "codex/operations",
+      "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AITattooBodyArtStudioManager",
+      "key": "/",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AITattooBodyArtStudioManager",
+      "key": "pricing",
+      "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AITattooBodyArtStudioManager",
+      "key": "/ai/:feature",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AITattooBodyArtStudioManager",
+      "key": "/cf-infection-ri[redacted]",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AITattooBodyArtStudioManager",
+      "key": "login",
+      "source": "/Volumes/external/projects/AITattooBodyArtStudioManager",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AITattooBodyArtStudioManager",
+      "key": "/*",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "beautyhqio",
+      "key": "pricing",
+      "source": "/Volumes/external/projects/beautyhqio/src/app/(dashboard)/ai/page.tsx",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "beautyhqio",
+      "key": "/dashboard",
+      "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "beautyhqio",
+      "key": "/ai",
+      "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "beautyhqio",
+      "key": "/settings",
+      "source": "/Volumes/external/projects/beautyhqio/src/components/layout/Sidebar.tsx",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "beautyhqio",
+      "key": "about",
+      "source": "/Volumes/external/projects/beautyhqio",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "beautyhqio",
+      "key": "features",
+      "source": "/Volumes/external/projects/beautyhqio",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "beautyhqio",
+      "key": "pricing",
+      "source": "/Volumes/external/projects/beautyhqio",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "Boulevard",
+      "key": "/dashboard",
+      "source": "/Volumes/external/projects/Boulevard/src/components/Layout.tsx",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "Boulevard",
+      "key": "/ai",
+      "source": "/Volumes/external/projects/Boulevard/src/components/Layout.tsx",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "Boulevard",
+      "key": "/features",
+      "source": "/Volumes/external/projects/Boulevard/src/components/Layout.tsx",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "Boulevard",
+      "key": "/settings",
+      "source": "/Volumes/external/projects/Boulevard/src/components/Layout.tsx",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "Boulevard",
+      "key": "insights/timeline",
+      "source": "/Volumes/external/projects/Boulevard",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "Boulevard",
+      "key": "codex/custom-viz",
+      "source": "/Volumes/external/projects/Boulevard",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "Boulevard",
+      "key": "codex/operations",
+      "source": "/Volumes/external/projects/Boulevard",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "Boulevard",
+      "key": "login",
+      "source": "/Volumes/external/projects/Boulevard",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "Boulevard",
+      "key": "register",
+      "source": "/Volumes/external/projects/Boulevard",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "Boulevard",
+      "key": "/book/:businessId",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "Boulevard",
+      "key": "*",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "Boulevard",
+      "key": "/",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "Boulevard",
+      "key": "dashboard",
+      "source": "/Volumes/external/projects/Boulevard",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "Boulevard",
+      "key": "settings",
+      "source": "/Volumes/external/projects/Boulevard",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "Boulevard",
+      "key": "features",
+      "source": "/Volumes/external/projects/Boulevard",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "Boulevard",
+      "key": "/features/:featureId",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "Boulevard",
+      "key": "ai",
+      "source": "/Volumes/external/projects/Boulevard",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "hairSalon",
+      "key": "dashboard",
+      "source": "/Volumes/external/projects/hairSalon",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "hairSalon",
+      "key": "settings",
+      "source": "/Volumes/external/projects/hairSalon",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    }
+  ],
+  "migrationWarnings": []
+}
