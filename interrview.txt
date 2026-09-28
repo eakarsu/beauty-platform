@@ -1,0 +1,93 @@
+1. Tell me about yourself.
+
+  > My work focuses on using technology and AI to solve practical business problems. One relevant example is a lead-prediction
+  > project at Lowe’s, using the company’s actual historical leads database.
+  >
+  > My contribution has been [your specific responsibilities]. The project is currently in staging, so I am careful to
+  > distinguish what we have developed from results that have been demonstrated in production.
+  >
+  > I’m interested in work that connects technical implementation with a business need. This opportunity appeals to me because I
+  > would be working closely with customers, understanding their processes, and helping turn AI capabilities into useful
+  > operational solutions.
+
+  2. Why Camunda and this particular role?
+
+  > What interests me about Camunda is the focus on making AI part of a complete business process. A prediction or an AI response
+  > becomes valuable when someone can use it to make a decision or take an appropriate action.
+  >
+  > The lead-prediction project at Lowe’s gives me a relevant example to discuss. It also raises the next question: how should a
+  > prediction fit into the process people already use?
+  >
+  > This role appeals to me because it combines engineering with direct customer involvement. I’m interested in understanding a
+  > customer’s problem, implementing a solution, and helping their team become comfortable operating it.
+
+  This motivation fits the customer deployment and adoption responsibilities in Camunda’s role description.
+
+  3. Describe something you delivered into enterprise production.
+
+  Use a different, genuinely deployed project if you have one. For the Lowe’s example, say:
+
+  > My most relevant AI example is the Lowe’s lead-prediction project, but I want to be precise: it is currently in staging, so I
+  > would not describe it as a completed production deployment.
+  >
+  > We are using actual historical leads data to predict [the outcome]. I personally handled [your contribution], and the work
+  > completed so far includes [confirmed milestones].
+  >
+  > Before production, the remaining work includes [actual remaining validation, integration, or approval steps]. I can explain
+  > the implementation and the decisions I contributed to, while separating those accomplishments from production outcomes we
+  > have not yet demonstrated.
+
+  4. How have you used AI to solve a real problem?
+
+  > At Lowe’s, I worked on a lead-prediction problem using actual historical leads data. The business question was [the specific
+  > question—for example, which leads are likely to convert, only if accurate].
+  >
+  > My role was [your responsibilities], using [actual tools or technologies]. The intended use of the prediction is [who would
+  > use it and what decision it would support].
+  >
+  > The project is still in staging. At this point, I can speak to [validated findings or completed work], but I would not claim
+  > a production improvement in conversion or revenue.
+  >
+  > My view is that the model needs to be evaluated both for prediction quality and for whether its output helps the intended
+  > user make a better decision.
+
+  5. How do you handle disagreements between business and technical stakeholders?
+
+  > My approach is to start by understanding the outcome each side wants and the constraint each side is concerned about. Then I
+  > try to make the tradeoff concrete.
+  >
+  > For a prediction project, for example, I would ask which mistakes are more costly: prioritizing a lead that does not convert,
+  > or overlooking one that would have converted. That discussion helps connect technical evaluation with business priorities.
+  >
+  > Where possible, I would propose a small test with agreed success criteria. I would document the decision, the owner, and what
+  > evidence would cause us to revisit it.
+
+  This is an approach answer. If asked for a past disagreement, add a real example rather than presenting this hypothetical as an
+  event.
+
+  6. How do you leave customers able to operate a solution independently?
+
+  > I would plan for handover throughout the implementation. That means identifying who owns the system, involving that team
+  > early, and explaining how the solution behaves when something goes wrong.
+  >
+  > My handover would cover normal operation, monitoring, common failures, access requirements, and escalation procedures. For an
+  > AI solution, I would also explain the model’s limitations and when a person should review its output.
+  >
+  > I would check readiness by asking the customer team to perform common tasks and work through a failure scenario themselves.
+  > That gives stronger evidence of independence than simply delivering documentation.
+
+  7. What are your availability and compensation expectations?
+
+  > My availability is [your actual start date or notice period], and I am based in [location/time zone]. Regarding travel,
+  > [state your actual availability].
+  >
+  > For compensation, I would like to understand the budgeted base salary and total compensation for my location, including any
+  > variable compensation, equity, and benefits. I’m looking for a package that reflects the role’s technical responsibilities
+  > and customer ownership.
+  >
+  > Could you share the range you are targeting for this position?
+
+  For the Lowe’s story, prepare four concrete facts before the call: what you predicted, what you personally did, how you
+  evaluated it, and what remains before production. Those details will make your answers much stronger than adding more interview
+  wording.
+
