@@ -1,0 +1,28 @@
+{
+  "insights": [
+    {
+      "id": "insight-bookings",
+      "feature": "bookings",
+      "title": "Booking demand insight",
+      "focus": "Summarize booking records: totals, status mix, field coverage and recent activity."
+    },
+    {
+      "id": "insight-services",
+      "feature": "services",
+      "title": "Service catalogue insight",
+      "focus": "Summarize service records: totals, status mix, field coverage and recent activity."
+    },
+    {
+      "id": "insight-reviews",
+      "feature": "reviews",
+      "title": "Client review insight",
+      "focus": "Summarize review records: totals, status mix, field coverage and recent activity."
+    },
+    {
+      "id": "priority-actions",
+      "feature": "tasks",
+      "title": "Priority actions",
+      "focus": "Overdue and upcoming tasks and deadlines, including unassigned work."
+    }
+  ]
+}
